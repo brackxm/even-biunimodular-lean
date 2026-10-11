@@ -12,4 +12,5 @@ rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
 name = "Biunimodular"
 srcDir = "."
 globs = ["Biunimodular", "Biunimodular.+"]
-moreLeanArgs = ["-j1", "-M4096"]
+# Allow headroom for large exact certificates on x86_64 runners.
+moreLeanArgs = ["-j1", "-M6144"]

@@ -992,45 +992,59 @@ def invariantBDiscriminant : ℤ :=
 def invariantBDiscSquareRoot : ℤ :=
   844524074536466297129247983837497504533280189906805587968
 
-theorem invariantB_discriminant_value :
-    invariantB.discr = invariantBDiscriminant := by
-  have hdeg : invariantB.natDegree = 8 := by
-    norm_num [invariantB]
-    compute_degree <;> norm_num
+private theorem invariantB_natDegree : invariantB.natDegree = 8 := by
+  norm_num [invariantB]
+  compute_degree <;> norm_num
+
+/-- The explicit Sylvester matrix used for the discriminant certificate. -/
+private def invariantBSylvesterMatrix : Matrix (Fin 15) (Fin 15) ℤ :=
+  !![7929856, 0, 0, 0, 0, 0, 0, -376668160, 0, 0, 0, 0, 0, 0, 0;
+     -376668160, 7929856, 0, 0, 0, 0, 0, 6460923904, -376668160, 0, 0, 0, 0, 0, 0;
+     3230461952, -376668160, 7929856, 0, 0, 0, 0, -25148940288, 6460923904, -376668160, 0, 0, 0, 0, 0;
+     -8382980096, 3230461952, -376668160, 7929856, 0, 0, 0, 27939660800, -25148940288, 6460923904, -376668160, 0, 0, 0, 0;
+     6984915200, -8382980096, 3230461952, -376668160, 7929856, 0, 0, -7679134720, 27939660800, -25148940288, 6460923904, -376668160, 0, 0, 0;
+     -1535826944, 6984915200, -8382980096, 3230461952, -376668160, 7929856, 0, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904, -376668160, 0, 0;
+     210448304, -1535826944, 6984915200, -8382980096, 3230461952, -376668160, 7929856, -68638808, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904, -376668160, 0;
+     -9805544, 210448304, -1535826944, 6984915200, -8382980096, 3230461952, -376668160, 2238728, -68638808, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904, -376668160;
+     279841, -9805544, 210448304, -1535826944, 6984915200, -8382980096, 3230461952, 0, 2238728, -68638808, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904;
+     0, 279841, -9805544, 210448304, -1535826944, 6984915200, -8382980096, 0, 0, 2238728, -68638808, 1262689824, -7679134720, 27939660800, -25148940288;
+     0, 0, 279841, -9805544, 210448304, -1535826944, 6984915200, 0, 0, 0, 2238728, -68638808, 1262689824, -7679134720, 27939660800;
+     0, 0, 0, 279841, -9805544, 210448304, -1535826944, 0, 0, 0, 0, 2238728, -68638808, 1262689824, -7679134720;
+     0, 0, 0, 0, 279841, -9805544, 210448304, 0, 0, 0, 0, 0, 2238728, -68638808, 1262689824;
+     0, 0, 0, 0, 0, 279841, -9805544, 0, 0, 0, 0, 0, 0, 2238728, -68638808;
+     0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 8]
+
+private theorem invariantB_sylvester_matrix :
+    invariantB.sylvesterDeriv.reindex
+      (finCongr (by rw [invariantB_natDegree]))
+      (finCongr (by rw [invariantB_natDegree])) = invariantBSylvesterMatrix := by
   have hdegExplicit :
       (279841*X^8 - 9805544*X^7 + 210448304*X^6 -
         1535826944*X^5 + 6984915200*X^4 - 8382980096*X^3 +
         3230461952*X^2 - 376668160*X + 7929856 : ℤ[X]).natDegree = 8 := by
-    simpa only [invariantB] using hdeg
-  let e : Fin (invariantB.natDegree - 1 + invariantB.natDegree) ≃ Fin 15 :=
-    finCongr (by rw [hdeg])
-  rw [Polynomial.discr, ← Matrix.det_reindex_self e]
-  have hmat : invariantB.sylvesterDeriv.reindex e e =
-      !![7929856, 0, 0, 0, 0, 0, 0, -376668160, 0, 0, 0, 0, 0, 0, 0;
-         -376668160, 7929856, 0, 0, 0, 0, 0, 6460923904, -376668160, 0, 0, 0, 0, 0, 0;
-         3230461952, -376668160, 7929856, 0, 0, 0, 0, -25148940288, 6460923904, -376668160, 0, 0, 0, 0, 0;
-         -8382980096, 3230461952, -376668160, 7929856, 0, 0, 0, 27939660800, -25148940288, 6460923904, -376668160, 0, 0, 0, 0;
-         6984915200, -8382980096, 3230461952, -376668160, 7929856, 0, 0, -7679134720, 27939660800, -25148940288, 6460923904, -376668160, 0, 0, 0;
-         -1535826944, 6984915200, -8382980096, 3230461952, -376668160, 7929856, 0, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904, -376668160, 0, 0;
-         210448304, -1535826944, 6984915200, -8382980096, 3230461952, -376668160, 7929856, -68638808, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904, -376668160, 0;
-         -9805544, 210448304, -1535826944, 6984915200, -8382980096, 3230461952, -376668160, 2238728, -68638808, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904, -376668160;
-         279841, -9805544, 210448304, -1535826944, 6984915200, -8382980096, 3230461952, 0, 2238728, -68638808, 1262689824, -7679134720, 27939660800, -25148940288, 6460923904;
-         0, 279841, -9805544, 210448304, -1535826944, 6984915200, -8382980096, 0, 0, 2238728, -68638808, 1262689824, -7679134720, 27939660800, -25148940288;
-         0, 0, 279841, -9805544, 210448304, -1535826944, 6984915200, 0, 0, 0, 2238728, -68638808, 1262689824, -7679134720, 27939660800;
-         0, 0, 0, 279841, -9805544, 210448304, -1535826944, 0, 0, 0, 0, 2238728, -68638808, 1262689824, -7679134720;
-         0, 0, 0, 0, 279841, -9805544, 210448304, 0, 0, 0, 0, 0, 2238728, -68638808, 1262689824;
-         0, 0, 0, 0, 0, 279841, -9805544, 0, 0, 0, 0, 0, 0, 2238728, -68638808;
-         0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 8] := by
-    ext i j
-    fin_cases i <;> fin_cases j <;>
-      simp only [e, Polynomial.sylvesterDeriv, Polynomial.sylvester, hdeg,
-        Polynomial.coeff_derivative, Fin.addCases, Matrix.reindex_apply,
-        finCongr_symm, Matrix.submatrix_apply, finCongr_apply,
-        Fin.cast_mk, Matrix.of_apply] <;>
-      norm_num [invariantB, hdegExplicit, Polynomial.coeff_X, Polynomial.coeff_X_pow]
-  rw [hmat]
+    simpa only [invariantB] using invariantB_natDegree
+  ext i j
+  fin_cases i <;> fin_cases j <;>
+    simp only [Polynomial.sylvesterDeriv, Polynomial.sylvester, invariantB_natDegree,
+      Polynomial.coeff_derivative, Fin.addCases, Matrix.reindex_apply,
+      finCongr_symm, Matrix.submatrix_apply, finCongr_apply,
+      Fin.cast_mk, Matrix.of_apply, invariantBSylvesterMatrix] <;>
+    norm_num [invariantB, hdegExplicit, Polynomial.coeff_X, Polynomial.coeff_X_pow]
+
+private theorem invariantBSylvesterMatrix_det :
+    invariantBSylvesterMatrix.det = invariantBDiscriminant := by
+  unfold invariantBSylvesterMatrix
   simp only [norm_det]
-  norm_num [hdeg, invariantBDiscriminant]
+  norm_num [invariantBDiscriminant]
+
+theorem invariantB_discriminant_value :
+    invariantB.discr = invariantBDiscriminant := by
+  let e : Fin (invariantB.natDegree - 1 + invariantB.natDegree) ≃ Fin 15 :=
+    finCongr (by rw [invariantB_natDegree])
+  rw [Polynomial.discr, ← Matrix.det_reindex_self e]
+  rw [show invariantB.sylvesterDeriv.reindex e e = invariantBSylvesterMatrix from
+    invariantB_sylvester_matrix, invariantBSylvesterMatrix_det]
+  norm_num [invariantB_natDegree]
 
 theorem invariantB_discriminant_square_decomposition :
     invariantBDiscriminant =
