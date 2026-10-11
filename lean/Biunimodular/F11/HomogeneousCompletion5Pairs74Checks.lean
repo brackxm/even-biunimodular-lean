@@ -1,0 +1,56 @@
+/-
+Copyright (c) 2026 Michael Brackx. All rights reserved.
+Released under the Apache 2.0 license; see LICENSE at the project root.
+SPDX-License-Identifier: Apache-2.0
+-/
+
+import Biunimodular.F11.HomogeneousCompletion5Pairs74Data
+
+set_option autoImplicit false
+set_option maxRecDepth 1000000
+namespace Biunimodular.F11
+
+/-! Generated exact data.
+-/
+
+theorem homogeneousCompletion5Pair16_24_sp_check :
+    rationalSparseZeroCheck 1822324704094033076800834129596826288968060250173547063849817174016533612194460021737693590595177177933969964627538787114611843916224631 homogeneousCompletion5Pair16_24SPTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_24_last_check :
+    rationalSparseZeroCheck 298579689635783475762376031828414318465088331550608769443269449082505575145554111848752318529488636920688533693175775136625058513658843605431282923310153656792378602677351 homogeneousCompletion5Pair16_24LastTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_25_sp_check :
+    rationalSparseZeroCheck 79231508873653612034818875199862012563828706529284654949992051044197113573672174858160590895442485997129128896849512483243993213748897 homogeneousCompletion5Pair16_25SPTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_25_last_check :
+    rationalSparseZeroCheck 12981725636338411989668523122974535585438623110896033454055193438369807615024091819510970370847332040029936247529381527679350370159080156757881866230876245947494721855537 homogeneousCompletion5Pair16_25LastTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_26_sp_check :
+    rationalSparseZeroCheck 180817381601731124851078828276410153373169048438114576782244065328834088637635125088586626981126249316753568478249598358450504058931958318111 homogeneousCompletion5Pair16_26SPTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_26_last_check :
+    rationalSparseZeroCheck 29626113040178634328516733580211809226097820180020260535979029580600854587893169711274588426146864955798550616749839261131298709598073201775354970390560235290186889617356748431 homogeneousCompletion5Pair16_26LastTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_27_sp_check :
+    rationalSparseZeroCheck 69531871133652875663302192805212329677783647540265440364074969570171191124995447837025673199381073077260455012194805983919151918507261582092768207064881 homogeneousCompletion5Pair16_27SPTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+theorem homogeneousCompletion5Pair16_27_last_check :
+    rationalSparseZeroCheck 51140859367192954157634712883203899420222294917231768274661156413264440377386090515067079146436518481958227613963165797948332937589894102327690470172191117191864361311822698827230947432130889 homogeneousCompletion5Pair16_27LastTerms := by
+  unfold rationalSparseZeroCheck
+  native_decide
+
+end Biunimodular.F11

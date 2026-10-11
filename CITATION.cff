@@ -1,0 +1,20 @@
+cff-version: "1.2.0"
+message: "If you use this formalization, please cite it using this metadata."
+type: software
+title: "Even biunimodular functions at prime 11"
+version: "0.0.1"
+repository-code: "https://github.com/brackxm/even-biunimodular-lean"
+authors:
+  - family-names: "Brackx"
+    given-names: "Michael"
+    alias: "brackxm"
+license: "Apache-2.0"
+abstract: >-
+  Lean formalization of even biunimodular functions on the cyclic group
+  of order 11, including exact classification, Fourier geometry,
+  Gram moduli, arithmetic, and symmetry.
+keywords:
+  - "Lean"
+  - "formal verification"
+  - "biunimodular functions"
+  - "finite Fourier analysis"

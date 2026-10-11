@@ -1,0 +1,60 @@
+/-
+Copyright (c) 2026 Michael Brackx. All rights reserved.
+Released under the Apache 2.0 license; see LICENSE at the project root.
+SPDX-License-Identifier: Apache-2.0
+-/
+
+import Biunimodular.F11.H252Fiber7LaurentRankInverse001
+import Biunimodular.F11.H252Fiber7LaurentRankInverse002
+import Biunimodular.F11.H252Fiber7LaurentRankInverse003
+import Biunimodular.F11.H252Fiber7LaurentRankInverse004
+import Biunimodular.F11.H252Fiber7LaurentRankInverse005
+import Biunimodular.F11.H252Fiber7LaurentRankInverse006
+import Biunimodular.F11.H252Fiber7LaurentRankInverse007
+import Biunimodular.F11.H252Fiber7LaurentRankInverse008
+import Biunimodular.F11.H252Fiber7LaurentRankInverse009
+import Biunimodular.F11.H252Fiber7LaurentRankInverse010
+import Biunimodular.F11.H252Fiber7LaurentRankInverse011
+import Biunimodular.F11.H252Fiber7LaurentRankInverse012
+import Biunimodular.F11.H252Fiber7LaurentRankInverse013
+import Biunimodular.F11.H252Fiber7LaurentRankRows001
+import Biunimodular.F11.H252Fiber7LaurentRankRows002
+import Biunimodular.F11.H252Fiber7LaurentRankRows003
+import Biunimodular.F11.H252Fiber7LaurentRankRows004
+import Biunimodular.F11.H252Fiber7LaurentRankRows005
+import Biunimodular.F11.H252Fiber7LaurentRankRows006
+import Biunimodular.F11.H252Fiber7LaurentRankRows007
+import Biunimodular.F11.H252Fiber7LaurentRankRows008
+import Biunimodular.F11.H252Fiber7LaurentRankRows009
+import Biunimodular.F11.H252Fiber7LaurentRankRows010
+import Biunimodular.F11.H252Fiber7LaurentRankRows011
+import Biunimodular.F11.H252Fiber7LaurentRankRows012
+import Biunimodular.F11.H252Fiber7LaurentRankRows013
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows001
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows002
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows003
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows004
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows005
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows006
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows007
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows008
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows009
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows010
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows011
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows012
+import Biunimodular.F11.H252Fiber7LaurentRankIntegralRows013
+
+set_option autoImplicit false
+set_option maxRecDepth 1000000
+namespace Biunimodular.F11
+set_option maxHeartbeats 0
+
+def h252Fiber7LaurentRankRows : Array TorusMacaulayRow := h252Fiber7LaurentRankRows001 ++ h252Fiber7LaurentRankRows002 ++ h252Fiber7LaurentRankRows003 ++ h252Fiber7LaurentRankRows004 ++ h252Fiber7LaurentRankRows005 ++ h252Fiber7LaurentRankRows006 ++ h252Fiber7LaurentRankRows007 ++ h252Fiber7LaurentRankRows008 ++ h252Fiber7LaurentRankRows009 ++ h252Fiber7LaurentRankRows010 ++ h252Fiber7LaurentRankRows011 ++ h252Fiber7LaurentRankRows012 ++ h252Fiber7LaurentRankRows013
+
+def h252Fiber7LaurentRankIntegralRows : Array TorusMacaulayRow := h252Fiber7LaurentRankIntegralRows001 ++ h252Fiber7LaurentRankIntegralRows002 ++ h252Fiber7LaurentRankIntegralRows003 ++ h252Fiber7LaurentRankIntegralRows004 ++ h252Fiber7LaurentRankIntegralRows005 ++ h252Fiber7LaurentRankIntegralRows006 ++ h252Fiber7LaurentRankIntegralRows007 ++ h252Fiber7LaurentRankIntegralRows008 ++ h252Fiber7LaurentRankIntegralRows009 ++ h252Fiber7LaurentRankIntegralRows010 ++ h252Fiber7LaurentRankIntegralRows011 ++ h252Fiber7LaurentRankIntegralRows012 ++ h252Fiber7LaurentRankIntegralRows013
+
+def h252Fiber7LaurentRankInverseText : Array String := h252Fiber7LaurentRankInverseText001 ++ h252Fiber7LaurentRankInverseText002 ++ h252Fiber7LaurentRankInverseText003 ++ h252Fiber7LaurentRankInverseText004 ++ h252Fiber7LaurentRankInverseText005 ++ h252Fiber7LaurentRankInverseText006 ++ h252Fiber7LaurentRankInverseText007 ++ h252Fiber7LaurentRankInverseText008 ++ h252Fiber7LaurentRankInverseText009 ++ h252Fiber7LaurentRankInverseText010 ++ h252Fiber7LaurentRankInverseText011 ++ h252Fiber7LaurentRankInverseText012 ++ h252Fiber7LaurentRankInverseText013
+
+def h252Fiber7LaurentRankInverse : Array (Array ℤ) := h252Fiber7LaurentRankInverseText.map torusMacaulayParseIntegerRow
+
+end Biunimodular.F11

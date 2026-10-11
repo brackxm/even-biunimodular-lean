@@ -1,0 +1,38 @@
+/-
+Copyright (c) 2026 Michael Brackx. All rights reserved.
+Released under the Apache 2.0 license; see LICENSE at the project root.
+SPDX-License-Identifier: Apache-2.0
+-/
+
+import Biunimodular.F11.H252Fiber4LaurentRankModularInverse
+import Biunimodular.F11.H252Fiber4CoefficientField
+
+set_option autoImplicit false
+set_option maxRecDepth 1000000
+namespace Biunimodular.F11
+
+noncomputable section
+theorem h252Fiber4LaurentRank_det_isUnit :
+    IsUnit (torusMacaulaySparseMatrix 1250 h252Fiber4LaurentRankRows
+      (AdjoinRoot.root h252Fiber4PolynomialQ)).det := by
+  apply isUnit_iff_ne_zero.mpr
+  have h := torusMacaulay_det_ne_zero_of_reduction h252Fiber4IntegralEmbedding
+    h252Fiber4ModularReduction h252Fiber4IntegralEmbedding_injective
+    (torusMacaulaySparseMatrix 1250 h252Fiber4LaurentRankRows
+      (AdjoinRoot.root h252Fiber4PolynomialZ))
+    (torusMacaulayIntegerMatrix 1250 h252Fiber4LaurentRankInverse)
+    (by
+      rw [torusMacaulaySparseMatrix_map, h252Fiber4ModularReduction_root]
+      exact h252Fiber4LaurentRank_modular_inverse)
+  simpa only [torusMacaulaySparseMatrix_map, h252Fiber4IntegralEmbedding_root] using h
+
+theorem h252Fiber4LaurentRank_det_isUnit_of_root
+    {R : Type*} [CommRing R] [Algebra ℚ R] (a : R)
+    (h : integerCoefficientEval a h252FiberCRTQ4 = 0) :
+    IsUnit (torusMacaulaySparseMatrix 1250 h252Fiber4LaurentRankRows a).det := by
+  have hu := h252Fiber4LaurentRank_det_isUnit.map (h252Fiber4RationalRootHom a h)
+  rw [RingHom.map_det, torusMacaulaySparseMatrix_map, h252Fiber4RationalRootHom_root] at hu
+  exact hu
+end
+
+end Biunimodular.F11

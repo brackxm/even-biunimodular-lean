@@ -1,0 +1,1181 @@
+/-
+Copyright (c) 2026 Michael Brackx. All rights reserved.
+Released under the Apache 2.0 license; see LICENSE at the project root.
+SPDX-License-Identifier: Apache-2.0
+-/
+
+import Biunimodular.F11.HomogeneousCompletion5BasisData
+
+set_option autoImplicit false
+set_option maxRecDepth 1000000
+namespace Biunimodular.F11
+
+/-! Generated exact data.
+-/
+
+def homogeneousCompletion5Pair12_14U : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 0, 1, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14V : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D1 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D2 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨-373, 357, 596, -130, -161⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D3 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨-380, 210, 464, -85, -109⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D4 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D5 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D6 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨750, 810, -800, -1222, -356⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨3440, -3088, -4664, 2026, 1710⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D7 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨550, 110, -396, -22, 66⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨992, -1060, -1636, 450, 480⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D8 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨1786, -1042, -1996, 438, 476⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D9 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D10 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-66, -88, -44, -11, 0⟩, ⟨0, 0, 1, 0, 0, 0⟩⟩,
+    ⟨⟨325, -408, -607, 96, 131⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨-2775, 3236, 4407, -1734, -1506⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D11 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-229, 62, 234, -45, -70⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨682, -294, -1220, 159, 441⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D12 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-878, 204, 868, -120, -206⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D13 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-4, 338, 324, -152, -124⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D14 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-226, 56, 156, -30, -32⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D15 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D16 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨-59, -35, 65, 64, 15⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D17 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨166, -286, -231, 250, 143⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D18 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-2277, 1679, 2855, -1092, -973⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D19 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨91, -13, -102, -11, 14⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D20 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨382, -169, -479, 60, 120⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D21 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-292, 137, 260, -16, -5⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_14D22 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D23 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D24 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D25 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D26 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D27 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14D : Fin 27 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_14D1, homogeneousCompletion5Pair12_14D2, homogeneousCompletion5Pair12_14D3, homogeneousCompletion5Pair12_14D4, homogeneousCompletion5Pair12_14D5, homogeneousCompletion5Pair12_14D6, homogeneousCompletion5Pair12_14D7, homogeneousCompletion5Pair12_14D8, homogeneousCompletion5Pair12_14D9, homogeneousCompletion5Pair12_14D10, homogeneousCompletion5Pair12_14D11, homogeneousCompletion5Pair12_14D12, homogeneousCompletion5Pair12_14D13, homogeneousCompletion5Pair12_14D14, homogeneousCompletion5Pair12_14D15, homogeneousCompletion5Pair12_14D16, homogeneousCompletion5Pair12_14D17, homogeneousCompletion5Pair12_14D18, homogeneousCompletion5Pair12_14D19, homogeneousCompletion5Pair12_14D20, homogeneousCompletion5Pair12_14D21, homogeneousCompletion5Pair12_14D22, homogeneousCompletion5Pair12_14D23, homogeneousCompletion5Pair12_14D24, homogeneousCompletion5Pair12_14D25, homogeneousCompletion5Pair12_14D26, homogeneousCompletion5Pair12_14D27]
+
+def homogeneousCompletion5Pair12_14W1 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14W2 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14W3 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14W4 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_14W : Fin 4 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_14W1, homogeneousCompletion5Pair12_14W2, homogeneousCompletion5Pair12_14W3, homogeneousCompletion5Pair12_14W4]
+
+def homogeneousCompletion5Pair12_14SPTerms :=
+  [(homogeneousCompletion5Pair12_14U, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14V, homogeneousCompletion5G14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D1, homogeneousCompletion5G1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D2, homogeneousCompletion5G2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D3, homogeneousCompletion5G3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D4, homogeneousCompletion5G4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D5, homogeneousCompletion5G5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D6, homogeneousCompletion5G6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D7, homogeneousCompletion5G7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D8, homogeneousCompletion5G8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D9, homogeneousCompletion5G9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D10, homogeneousCompletion5G10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D11, homogeneousCompletion5G11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D12, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D13, homogeneousCompletion5G13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D14, homogeneousCompletion5G14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D15, homogeneousCompletion5G15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D16, homogeneousCompletion5G16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D17, homogeneousCompletion5G17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D18, homogeneousCompletion5G18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D19, homogeneousCompletion5G19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D20, homogeneousCompletion5G20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D21, homogeneousCompletion5G21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D22, homogeneousCompletion5G22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D23, homogeneousCompletion5G23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D24, homogeneousCompletion5G24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D25, homogeneousCompletion5G25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D26, homogeneousCompletion5G26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D27, homogeneousCompletion5G27)]
+
+def homogeneousCompletion5Pair12_14LastTerms :=
+  [(homogeneousCompletion5Pair12_14U, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14V, homogeneousCompletion5M5_14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D1, homogeneousCompletion5M5_1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D2, homogeneousCompletion5M5_2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D3, homogeneousCompletion5M5_3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D4, homogeneousCompletion5M5_4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D5, homogeneousCompletion5M5_5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D6, homogeneousCompletion5M5_6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D7, homogeneousCompletion5M5_7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D8, homogeneousCompletion5M5_8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D9, homogeneousCompletion5M5_9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D10, homogeneousCompletion5M5_10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D11, homogeneousCompletion5M5_11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D12, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D13, homogeneousCompletion5M5_13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D14, homogeneousCompletion5M5_14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D15, homogeneousCompletion5M5_15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D16, homogeneousCompletion5M5_16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D17, homogeneousCompletion5M5_17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D18, homogeneousCompletion5M5_18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D19, homogeneousCompletion5M5_19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D20, homogeneousCompletion5M5_20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D21, homogeneousCompletion5M5_21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D22, homogeneousCompletion5M5_22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D23, homogeneousCompletion5M5_23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D24, homogeneousCompletion5M5_24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D25, homogeneousCompletion5M5_25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D26, homogeneousCompletion5M5_26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14D27, homogeneousCompletion5M5_27),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14W1, homogeneousCompletion5Original1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14W2, homogeneousCompletion5Original2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14W3, homogeneousCompletion5Original3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_14W4, homogeneousCompletion5Original4)]
+
+def homogeneousCompletion5Pair12_15U : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 1, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15V : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D1 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D2 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨701, -531, -1056, 177, 295⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D3 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨-84, 11, 115, 4, -31⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D4 : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨-150, 79, 189, -33, -45⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D5 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D6 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨110, -110, -176, 44, 44⟩, ⟨0, 0, 1, 0, 0, 0⟩⟩,
+    ⟨⟨-28, 19, 30, -11, -4⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨1701, 3709, -1559, -5002, -1798⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨-7456, -1076, 9609, 3902, -450⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D7 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨396, -704, -880, 286, 264⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨1146, -234, -708, 382, 198⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D8 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨1952, -862, -2284, 420, 630⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D9 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨530, -348, -526, 126, 116⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D10 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨66, 319, 66, -264, -121⟩, ⟨0, 0, 1, 0, 0, 0⟩⟩,
+    ⟨⟨207, 502, -13, -390, -138⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨349, 1336, -1747, -2768, -599⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D11 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨179, 161, -202, -165, 2⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨-1539, -398, 3042, 688, -720⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D12 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-77, 26, 71, -8, -17⟩, ⟨0, 0, 0, 1, 0, 0⟩⟩,
+    ⟨⟨594, 388, -743, -263, 101⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D13 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-124, -154, -144, -36, 26⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D14 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-116, 34, 222, -52, -76⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D15 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-76, 74, 36, -26, -6⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D16 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-4214, -867, 4767, 2536, 189⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D17 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨885, -8546, -1087, 9430, 3851⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D18 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨28, 2585, -92, -2870, -939⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D19 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-1024, 1355, 1214, -1204, -746⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D20 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨-766, 364, 995, -126, -270⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D21 : RationalSparsePolynomial :=
+  ⟨11, by decide, [
+    ⟨⟨197, -580, -8, 526, 46⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_15D22 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D23 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D24 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D25 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D26 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D27 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15D : Fin 27 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_15D1, homogeneousCompletion5Pair12_15D2, homogeneousCompletion5Pair12_15D3, homogeneousCompletion5Pair12_15D4, homogeneousCompletion5Pair12_15D5, homogeneousCompletion5Pair12_15D6, homogeneousCompletion5Pair12_15D7, homogeneousCompletion5Pair12_15D8, homogeneousCompletion5Pair12_15D9, homogeneousCompletion5Pair12_15D10, homogeneousCompletion5Pair12_15D11, homogeneousCompletion5Pair12_15D12, homogeneousCompletion5Pair12_15D13, homogeneousCompletion5Pair12_15D14, homogeneousCompletion5Pair12_15D15, homogeneousCompletion5Pair12_15D16, homogeneousCompletion5Pair12_15D17, homogeneousCompletion5Pair12_15D18, homogeneousCompletion5Pair12_15D19, homogeneousCompletion5Pair12_15D20, homogeneousCompletion5Pair12_15D21, homogeneousCompletion5Pair12_15D22, homogeneousCompletion5Pair12_15D23, homogeneousCompletion5Pair12_15D24, homogeneousCompletion5Pair12_15D25, homogeneousCompletion5Pair12_15D26, homogeneousCompletion5Pair12_15D27]
+
+def homogeneousCompletion5Pair12_15W1 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15W2 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15W3 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15W4 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_15W : Fin 4 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_15W1, homogeneousCompletion5Pair12_15W2, homogeneousCompletion5Pair12_15W3, homogeneousCompletion5Pair12_15W4]
+
+def homogeneousCompletion5Pair12_15SPTerms :=
+  [(homogeneousCompletion5Pair12_15U, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15V, homogeneousCompletion5G15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D1, homogeneousCompletion5G1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D2, homogeneousCompletion5G2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D3, homogeneousCompletion5G3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D4, homogeneousCompletion5G4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D5, homogeneousCompletion5G5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D6, homogeneousCompletion5G6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D7, homogeneousCompletion5G7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D8, homogeneousCompletion5G8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D9, homogeneousCompletion5G9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D10, homogeneousCompletion5G10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D11, homogeneousCompletion5G11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D12, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D13, homogeneousCompletion5G13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D14, homogeneousCompletion5G14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D15, homogeneousCompletion5G15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D16, homogeneousCompletion5G16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D17, homogeneousCompletion5G17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D18, homogeneousCompletion5G18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D19, homogeneousCompletion5G19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D20, homogeneousCompletion5G20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D21, homogeneousCompletion5G21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D22, homogeneousCompletion5G22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D23, homogeneousCompletion5G23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D24, homogeneousCompletion5G24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D25, homogeneousCompletion5G25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D26, homogeneousCompletion5G26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D27, homogeneousCompletion5G27)]
+
+def homogeneousCompletion5Pair12_15LastTerms :=
+  [(homogeneousCompletion5Pair12_15U, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15V, homogeneousCompletion5M5_15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D1, homogeneousCompletion5M5_1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D2, homogeneousCompletion5M5_2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D3, homogeneousCompletion5M5_3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D4, homogeneousCompletion5M5_4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D5, homogeneousCompletion5M5_5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D6, homogeneousCompletion5M5_6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D7, homogeneousCompletion5M5_7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D8, homogeneousCompletion5M5_8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D9, homogeneousCompletion5M5_9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D10, homogeneousCompletion5M5_10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D11, homogeneousCompletion5M5_11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D12, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D13, homogeneousCompletion5M5_13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D14, homogeneousCompletion5M5_14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D15, homogeneousCompletion5M5_15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D16, homogeneousCompletion5M5_16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D17, homogeneousCompletion5M5_17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D18, homogeneousCompletion5M5_18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D19, homogeneousCompletion5M5_19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D20, homogeneousCompletion5M5_20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D21, homogeneousCompletion5M5_21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D22, homogeneousCompletion5M5_22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D23, homogeneousCompletion5M5_23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D24, homogeneousCompletion5M5_24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D25, homogeneousCompletion5M5_25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D26, homogeneousCompletion5M5_26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15D27, homogeneousCompletion5M5_27),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15W1, homogeneousCompletion5Original1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15W2, homogeneousCompletion5Original2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15W3, homogeneousCompletion5Original3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_15W4, homogeneousCompletion5Original4)]
+
+def homogeneousCompletion5Pair12_16U : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 0, 0, 1, 2, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16V : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 2, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D1 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-5027453448093613068028407623578239434971737406654582384726013448912628, -10494950934366196118053268612639891314383494895230466831219732572925349, 28171061396977501755824006140276629150729468488347081298930181778309114, 10287483949562125825250152823618571342790886249983921698529459882266139, -13190756981025788675130989990025370740143617934141601092845150054082952⟩, ⟨0, 1, 0, 0, 1, 2⟩⟩,
+    ⟨⟨400113378638650137264104845715740912126932467899314424163519910617229191, 1528783625069866931216716122035754533266877239160789423217019779520338859, -604943738904744701063614082180849215474044392770236716657506802458787685, -2045842835589073976491509309479230914759946029586909986879353497841572883, -554718474823042632023748090295009736902104898302874188271631897483203578⟩, ⟨0, 1, 0, 0, 0, 3⟩⟩,
+    ⟨⟨-7864776610642571417013082142591588557831900778916253376585313030446593, -27831630327563587640186006588905259139166483990504146204533596601723360, 252078345780087056610399241555296248940889904231358816554209986978062, 3600915116915461198086796647027136626399187899858857296274249402028771, 4582509852662355450278981018308573308805264911479688090976115056077936⟩, ⟨0, 0, 1, 0, 1, 2⟩⟩,
+    ⟨⟨-566270245324279235670554543874680576961044422373041780601596906455038464, -3170117767113224960817285944034167033457430282365830090895741325000020153, -1779500656522582399441006907496990390839450994332824912672532499870199475, 1019434030075416391101218617070566824200316093570301885640811779649976484, 1172184845872278263894945526011605281359435363319181518206715998913728148⟩, ⟨0, 0, 1, 0, 0, 3⟩⟩,
+    ⟨⟨-152861704415699094327450588215412358966865972384451859459261154225330083, 96224966905695832229644527580684452112195261991132494292462667434739463, 171468824778640457743375069910099316295004641111870613327614794101932349, -36237520332144987449905352103824677099321484576554591985290244193154524, -40560379301078811522164051799098714853036844215427662944517757275945147⟩, ⟨0, 0, 0, 1, 1, 2⟩⟩,
+    ⟨⟨7942914872215307296009763087744162970640735615223373127338926726060599372, 29980056964962619195200725365285119311871102472580884341802635947480526100, 5756942567808825669778136996170243608440001091050146060861455000927722516, -47572917570609003034427281098094397316627915794879572529968692629409889934, -22591826427268274540610070781650713535419751573914085301314793123902891945⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨259646446136029588828789223561914658900629686897395541118852545752854281, 613872516188628642010269047980730596615468163099467094899305686964775892, -1142918332466726181311911261717463182772909920747659439418781509314030583, -216099502038533763954284842420706025319481427876602031522721328088871422, 367467486505943336256325477832865408489533811630979247716625981191228376⟩, ⟨0, 0, 0, 0, 2, 2⟩⟩,
+    ⟨⟨65560274315564719959957851935778425953424658202608725017710999462718084724, 332137858237780562167387039207409555539360421509366586904946119723111038422, 263789095292136607464220337555110354893070171114663272459525914896036450460, -411649093569307405257484487151304048984020154048873939836281805574393298058, -242027445571199998029310502543552054858826534668410128784780031540856499898⟩, ⟨0, 0, 0, 0, 1, 3⟩⟩,
+    ⟨⟨-110953014009763664745526121166686290295944195491036436011478678073200952360433, -397577799074666739819621583858976130754123960077566567239299549480014956477441, 99650561586068216387447675908558459723931873234380464813103662938995617598167, 499840346228233537852942756324406270186843754029232641344801038269682260797309, 185338792759730106919003923045919713742613216532826105316542469030182304023663⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D2 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨6225348395497806031350917503738848292624066881287794698003133455943261617, -22262433758638867246450670166141739260042601118526332782707669746900296255, -29703671155037740698149785422123262907947057620900550197587056340443146157, 10787236724502711680860212079828106965899177817822363006866391092449948918, 9733368701562236397383281380838972637127466908572215056384239414828123884⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨31158586180146747373996697928845629535147341257573870135007446658244477965791, 112718503932064871346605631453650227070883243324975868217102233088612625923866, -24224846444971673404142516424733965886661662509241139753795226326226908785749, -134584223091031956138635658517385671506685856795835698468032619503740616555984, -49900963693012021398328292654953477916190034749052824264894982499081052325379⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D3 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-1312375032446968170212849301947010713386446717847659637446120855797331740, 608922300815607973739212325468657077062977818750041884136435429150386546, 1467511551672118340487297273236189812117873640703790707264070037216188982, -223868770045830997048091353976711788379141949622604410433348194441403588, -326846757260786235315508156024574458406584418438695109824558105245632442⟩, ⟨0, 0, 1, 0, 0, 3⟩⟩,
+    ⟨⟨9429642574811758086313902468050985449191403446554800299713556585259396461, -6378612723769818848714073997889926059538272254003457080008024473324459498, -13353888269295412180062637992141301651973071578002766151375131443182946818, 2149399769457799528603230559607555621369262232987738829299009226987814678, 3235144721373169757055962829294403248839179062261105611438089059916763446⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨-4690973180773208817297768728624653670127603536826105681415948099782213547418, -19163789905176025387078588363546775804655439888880284363676259429209548714355, 1748012016035125588912786391777270849333043312050186598443815977486243205545, 24275929600398571021656180071569058671843321082658859816560254816887449863145, 9835630286475789396915477581035029108370202725235749050445609670215975322559⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D4 : RationalSparsePolynomial :=
+  ⟨237466438359064045419709157, by decide, [
+    ⟨⟨-15438558043705228712713301814, 9165260395606339801237285407, 35248495764816325346688452977, 373132725229010815927935032, -12668694750486432224505715634⟩, ⟨0, 1, 0, 0, 0, 3⟩⟩,
+    ⟨⟨-6470047696339002729462107588, 15008033785056742038439734288, 13485020132801945903067997082, -6153820094292893966364257782, -3637080991915409663964023850⟩, ⟨0, 0, 1, 0, 0, 3⟩⟩,
+    ⟨⟨-578422323577289123223608020374, 240232274052094248379835868664, 683779790963771383202174782126, -82353590293170040632021561250, -162886079930644896290600317710⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨23994831296764644533909615984387, -19095816444296106212096443645804, -30335654077763286942223454781508, 12962611088986039055606259865985, 9754339552426669128238590875700⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D5 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_16D6 : RationalSparsePolynomial :=
+  ⟨12492376849580073594228657460795525676168261806995266944971468384295837, by decide, [
+    ⟨⟨-232745048470219738764884886728677162464485283369765326392960002460308528, -610197153848887940599320125368934429438383779603946110567829859182274213, -340141765025352349341129240011368840440062400702763157815353217210669729, 230480547560880971472167832930091066403111792338812826892818016016546031, 155147566030108953300674908393985374919354694049935352179053727493886278⟩, ⟨0, 1, 1, 0, 0, 1⟩⟩,
+    ⟨⟨160930376528165543586361434442603274930740410427346014109842075244902279, -185064624369431404914620073207336308303372820829623755873768256219676627, -193699829252929231999208491080803885285965557114030513824354043382594255, 92336262171435461888653690593488190952351001377947838646557307898125595, 69721477491926486747703318127571423642361062142074381523425474778045638⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨27907680376598892010488386454458406988316935874544531787438521508216950, 44406621627750136082066464051253304240891068432134389354548868874306362, -7616835243663428362623521937686642608261727372585573453948701869730223, -17300789056133483920222804476164068389751410944580397998113751232177715, 758060004786697278726088853484913486665720477341377983645664253200086⟩, ⟨0, 1, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-612175739246634305835974321433046841984327273245442275852797546400427934, -463392764534335630109250132128819534982797525133230229950656268827734288, 1386150195372255652261689910212459218125947788031223588196591823550658575, 97021471553819799341924761942601913219243336123318031359408071163944151, -388399479397895406223193845615126755459066409379215403791035154978598395⟩, ⟨0, 1, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-25653794984941420230494960841490870828070584333417607526260956912107924774, -382267185484231659884510201771786140482288356994025168876708805853692939227, -404407941057242926797575464923847408464870610600479628838184292554648384282, 725954988299201195161870199355123231945034680241186771522127475737522368379, 436372760784767495990383475260301904954901055027133596732703672063955863419⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-405053590292720015424338551575600624021955605140520768595645995730328273, 497863876232647678252457643681282073314374844759080181673221732893826440, 192425248176599071725553217836349807052604203371789058833698418449131731, -487579492039481932074623777831655640685296590678820562057407724520742191, -188899281306166337509722143620226525436025696922045101177305573300201713⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨3820699149689311198114330249658100080539268013757428655544401906732679735, -12061122015668086056545103158758031366444313230709054305319528330185192529, -18785662478558811112841154625005749774839681548517921550378418553461130966, 4621879195968999900194735847539536583552198546921244219176641545038071320, 5565909598791081071196651226742083727754255456811964925283367245274243399⟩, ⟨0, 0, 1, 1, 0, 1⟩⟩,
+    ⟨⟨46866645839332808800207024334897467111641511322471682796974982263299974, 76577913446777634983944009063146819475352168105502468530981864857937486, 31167519104335103403591023390012725400610033306243385104416280959148162, -30406146026219270919710870276530273799017863124022137193258996372088221, -17941667976224976658504608041122660541004618028165791741696534903425461⟩, ⟨0, 0, 1, 0, 2, 0⟩⟩,
+    ⟨⟨71517089404317352708932940891996011298975294538251387390727128428953456083, 277768449207834829573575822171971232249959017590240874699578611070340991509, -42958919008828550817906434021056431733789726815423213814674551920943313181, -356197705974273435705997074417606136921040914999470267062701457517429647311, -139817202250536233486945055518453660022598698886024907230037000520611008844⟩, ⟨0, 0, 1, 0, 1, 1⟩⟩,
+    ⟨⟨-322432964807233401629422108848354627000557640946051645631147785143432823505, -1281022373700851577996414129841558574340137430929902231305044866500488125897, -359856947268883090875728166032378995402004425382325857717581496278591722538, 2264074870876785539118489060521896716329545643356921265475260377146220899544, 1129586546491925964517116425550350266160673847964735443370318764587933694810⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-87446637947060515159600602225568679733177832648966868614800278690070859, 29527436189916537586358644907334878870943164271079721869932561635608342, 80632614210925929562748607246952938455267871663333086644815841389545857, -9085364981512780795802659971487655037213281314178375959979249734033336, -19306400585714659191080652439411266954078222792629048914955905684820839⟩, ⟨0, 0, 0, 2, 1, 0⟩⟩,
+    ⟨⟨-4090891575367035170532657469133973589983733681947268878930855384485097485, -3821981433922289527168630741408239206150764799793566371162762801078992805, 8867757239292912365300252896067114692054583071035543608457291114671030438, 3086815793557926486668670890715396377806352674805008586133487097242550416, -1178879840909793172943416870479761163655520242261049052616714658284745949⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨-9891649961762068977224601088048288671285989897711198892976820032829069, 48309292986062371027088060369300499323993611754892649487067037245258256, -26326179604944353659716366981757809696235659619088964412796846972828746, -20444675832190387326808509881591787310120594801302557399762807438887003, 18294746784852124464301332729693542957584049373694963043053446299017496⟩, ⟨0, 0, 0, 1, 2, 0⟩⟩,
+    ⟨⟨-129490778015051170758697794001785268988532085329215891498667656534545537840, -459229737035280187096260935179156826915998068715854352046516954816050058732, 244579609560276831785049808642336614982479456216757029412361635994100596782, 477780066626429718269508661727480268251890405392068697677067438031033273766, 126885877518392139755879677448872800185454931570990117065279857073638399231⟩, ⟨0, 0, 0, 1, 1, 1⟩⟩,
+    ⟨⟨-129343438461106333783610063670307834995862678334509860702990365119800549995785, -464839468919833239999922105690127049682505845103142065104588038354194516130277, 109831876113387341482433438478582207137568979539807907663888595105879399909032, 584920021428382621994135755290971665956061090508102529523016639633467549293069, 218742452940963984838745974207957224891088842709932513872573871154554973236361⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨18150151088848076751499462962393433769461324130871081418969087074090203, -1805771052451075184496377713209843637571135332770559327752688588475097, 222639636266513851505111009468641193040173092237455407346219345095577172, -242193516944140464914444302904669282920232384181664141102521961634458133, -205665917917782183890739343222571309736579284243256171276094101310892941⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨8535612284327554250690071607893895082446360770841884242339184369483295179460, 31313406656850230984743704477417985672332506109955061693178635753215432955015, -5661493752171898063941131058056458893141510615733594985712365079729539169626, -40372375370490496871553645263090283749774899478263090256378303803912372087154, -15699301454827324644535576198799550872668258259992591207863245343171103135235⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨11868055813297713456039917979785541412194787609965179911005535592934567511162709, 42664398267918340232061092500308224240135243730567171740097029129379517824487542, -10240670509350885096929849124182189282534612597595364279542824979244733202483637, -53576421307229576202298677374675844828774447606233582037472423945994781622941772, -19976000454059469717288067799696162667663301722036377071602232679678220457941613⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨11251279988905116685354806752659887885272687585168411262816903450107721993478642, 40453807202572184770588375965897106748669842321787248971745781050850380773201149, -9685033502051295361391947597665207903596739632786441031225592738268765793456443, -50835557308754764990557241581733089216157222140946526974452792533033730259036095, -18965944902738702329489082810169625545530206658346217983032394236364334702945059⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D7 : RationalSparsePolynomial :=
+  ⟨12492376849580073594228657460795525676168261806995266944971468384295837, by decide, [
+    ⟨⟨-5968343955020702230822569693288081347184182948089229326802866699804958452, -20004203082569295294550970819179101110334706425160468873309154051111019560, 5636724261216445057230727531354417780156796018719133601285920174592684966, 24355223609424768145718829999854864991335302389838649713725329358735402852, 8815795127602813235867857567989445201360582124455983167535086674224592788⟩, ⟨0, 1, 0, 0, 1, 1⟩⟩,
+    ⟨⟨90444504058733824530816138457669965445799324380706272520770881846920321668, 330767160732205874399202737459360709621170874710795556048561449491049113690, -59559632877792450919087978259842685866620102779547074986168664883107040308, -395601169178038514833040438980689324871800530005963356133915366354934109742, -147408361844850382973393849935783232666215716409004500907219349066125935601⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨96070977705397075158325256013644514112807148378705913054091156413601418, 705590985315628304440546350042235025560676560509602002422795684300449998, 142023684301831641140328235173338529095773936738057784410799198758258314, -362143079613829690926871501657449741219915283783858329041916180521860696, -121232513963232418017972129968171891429182046219952815566379264313877594⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨-3723865270413644244248227368632783006792751360364602641274304438599261714, -8418812400310245579854112729856808548673462063223964748680337687407287537, -866174722243504956298533212673279311760216942802954439116055006755895220, 7915040981732059937672162869711550044968259693839094749322693302794992251, 3490729447060681193592849084391801730630452110792324240703178647777100688⟩, ⟨0, 0, 1, 1, 0, 1⟩⟩,
+    ⟨⟨-899307291023390726970464052122505765316557619322445904936966834034718938, -3399676201307614185394582508233217478841513252087661604201795599986701040, -5559477173062992471389909731542378762881447587842158466696842416134297980, -3431609861116812722437455681712811463361910071322192013464432965288353734, -675071116414370828547274291449221742292144658894508844153841678777371318⟩, ⟨0, 0, 1, 0, 1, 1⟩⟩,
+    ⟨⟨65674108105985681020513299118532762871403185316100706076590121165193357611646, 236057007132438642210870135071431506470359416762696880206112671222356812219408, -56732745364909854361288945391611428998440501407687023035797111130497373313013, -296402681704806893304504118757286095467190394427445945602242775623684532901038, -110490618155232345180535922711485619379033523267004949531414373882891624731879⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨3462049967433210077887343116956713329919639227700703431044688582893784996, -19183049640179675469764712574976310682347182519859136449297535090178224768, -63765445854826468646232386712570780095973880864530591759396513964131673283, -6868311807946826486559053828761825912204164425658737621021290206401501967, 10919366643920632625148055761452164135892712177867054513087369060115420522⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨112241428578036889978679909738319794335926354670098536824765411754678838, -5023232155153439791762081695979793702249616738819364612021360569853042, -215524551949631088080420028295496045369696095805175935616853595930834378, 15122691252398675272474611429349822988583521765992324265169681708466112, 59497106509237794483718101619186929974860478116064816066632961407603919⟩, ⟨0, 0, 0, 1, 2, 0⟩⟩,
+    ⟨⟨-164502741871409763923585968330434765950369028594828244389364368027817505352, -519380899406744864949584589094604574634831622538823760491934738732963324327, 189601033656271571369230377156395063664938122823548563457904735361074386236, 626760106940186403170620161205266790813111813334402875992931350164595774316, 213561168695657849218649014613686265626908867829025862163681418211955033078⟩, ⟨0, 0, 0, 1, 1, 1⟩⟩,
+    ⟨⟨-364136609408275900100001442682435947383331736753434722294671846631323898033713, -1304983738211676504367932020796982200851678330732556898066152283058524202341186, 319921905585552523205889337918270256586858838394204831753865763256897808081410, 1655779270810672239475394079736144018111439068706666888558841116890218621713672, 618151874066398304217283492467586889827031254209081355267749808446702309424507⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨609933408476570406368380371097348282228007671784841923381368895070122470, 1414909157567101334176757692618395606409705554222248056486659853136439696, -2657304641832441733639698229842684490850416788177350880186126041841130208, -274292555856745699558571807711593799000609341916089274282020368446339342, 747956579578007429424984178794899087137618695315542047382401032392183458⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨-870713247330284228954339345684040068978986644151778230150304044725163389717, -2193279128952545239694113972675727289988427432054131457918025326045158201098, 3612768243224761108128528020104212510213258351813777156717019812985496297685, 1932605880982625414345037440573341895580583198217910331198200607715363587117, -217903707189523004038156226238841209020346741425195368653956403240746409684⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨543790175603911769842653604485767407748025253443589570600123441433661303314051, 1957360237757594710269591866176022018970085148013452272976585836535806951312521, -460128698617698975353062332400183529723153904756276730189607961704067387500362, -2454871623712177700610251396862766331128720052833333744330424235747856916606049, -917422513360597260928822177891318622303525746473525815135776809698409161156016⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨-21648630477956282252464581775283517331880802183977625560275068432570594506946399, -77801055290421642842028022286516045554102951025042233379199239427844789157862548, 18709195503295561567244947222618287977727144987010009465246367003126342369977984, 97687679765850631171006678985502168829112553769058333075661409602887162240502857, 36412310805934807446756641008755063659650189669990251242328132677954947324642244⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D8 : RationalSparsePolynomial :=
+  ⟨12492376849580073594228657460795525676168261806995266944971468384295837, by decide, [
+    ⟨⟨-70751757194733313833746241431566987945040289589796299019247340333766578, -116618801580133351629337131380028031287381677581122755649253517250752699, 329742542915649060135605153204076506446871717921693625337619646316528264, -30533697424407791598610396674838149849759462458706180596840375153147959, -135837742740573097218185438037777689437666627564745520100953141535873786⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨2122890785957891613426643528350246630676756492426740608987828503349221188689, 6654273375787959951582760272425544966130538398926369813056317034662969423041, -4637505335722236482215925850119987549092480048674021688522701395635211924054, -6754657779112197439161572289817073791721912506008755019846437264110530775902, -1476562047586064715957958840844859286873160275172809174526572361794658272066⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨-2095499160360464609704289116574402865480394340250368995964772270874070931134541, -7534268653112379363187721219582269231130533756416455546280723057342552934716135, 1803189731740510700457492851190020562543016572940240917650317137465601104529406, 9464882658722564498901064975459897123970955745108857786516039558517494324016280, 3530931864516353720572003021987384351874263363959400891134120415163576509722650⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨4816518016276370686217652659895289073050104987135558552605730957571625364045158, 17308170470540236355007925394838510204154540049144308529351242458275314753468294, -4212157479402109562144254516782292761709355638445691004700306775446151094406853, -21720993538309294775385915193571994088315471485691596121826314686199299936766653, -8081211527572396001513614862501114051108644551043907729507532529742152249221785⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D9 : RationalSparsePolynomial :=
+  ⟨12492376849580073594228657460795525676168261806995266944971468384295837, by decide, [
+    ⟨⟨8808191785531673198429735483896111659379345205144608948235139811081096, 17227092924013074678428614883172409761612219820569335990566982128336719, -5563575516072348443925949324434959528982069791093883203740497141040146, -4836658872262401024312873099141663927772141252034551011198500922609605, 2360174080199771646553313916450251995082656717585857820747651791562126⟩, ⟨0, 1, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-35163078799649486867778044445667415336055620058259354701442584092406895, -119008055305436250696343705337606493132254339462536328313613539885223355, -1350507823997506413790688853517838041200960131011004297807618114073389, 91145467721354884293351198932586576750355609199024830749631853891471415, 13685264873189609540104527247065623470107060113956683632926134311485154⟩, ⟨0, 1, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-942400442873448125631128014437294382297126757170733270164469287234735964, -6586653670144254981183447384553563522208391077136894293017996568175437446, -6433164382510367942313126201738905497946703132143211643610662337219042604, 12732918527003327142355932846612524080905342113868288685316718878853630276, 7601376614598330146110140919189135026537193915367586701799547616252861588⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-27908164423011745415607241828539499478089061805362214435912292801118327, -96868147541755917740010783994171443826013981950533001621341825687816836, -221693130095315216949082094928694268094055045772542258392596061314960, 32110915802779125953406800616079654598438294959242927048950105812010531, 4152712103323456617378918606865542213131669029614969087247525218586872⟩, ⟨0, 0, 1, 0, 2, 0⟩⟩,
+    ⟨⟨254491621513908217405025307252513185875581377437182292379092171636050067, 1200127341029832578931224676420929369320525921723365120736072299615898312, -221130906336220946402239054010444467139404403658215718602351311099266529, -1382297267427301531977587769626378673621503742972762922217728399650598970, -562872119013671775063032592518742598190961621340322681243754740007807374⟩, ⟨0, 0, 1, 0, 1, 1⟩⟩,
+    ⟨⟨-11986676989441693434349587550194251284397899370199809651247402836768739779, -36460016595187152028201511540961566156086496798053057767672017603139408880, 23352834966451522821881372365855044716082817490598337447083829701646890427, 53627989692105192422992184442945709062337704025914168963073428125959913635, 17098386495242572874141058970029750994731921569166782314638341642330677017⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-9373170363126215318984927067659505744781339704368194219883349641590846, -35552953054483364740884275526314502654037291260067741450030025491447249, 24512740950622267138403312209025369557205036738822091938956215675151360, 33813908187542924293899214752835081740813789522571176300892520655323707, -2301374600478452281461922641364538539688092603762519634622760083673670⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨169493559340963086245156541347985655485952861791941027932475138838268354165, 613943528294828849926095842457074303007063215669509670523377668058300777512, -134248462277880809194084093827226832158848923311482774693610497576109335217, -778757391704806724087760412066022233134405386795023445646186900874177512489, -294876403297002405866598816719846310009497830680538013485606879104826370100⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨-2053033224038678652751121876069093855567035329340544100433648420281261441256, -9437446420278814159733091139226097089083162827627896660250464309631849741654, -4204017136827575141733597435879701759964796080120879206713559928109930392845, 15089656108662603402487287760021648660280008814101369587451138273718242822657, 7818269067112264098749936340447454895467297810654515583057296765732645929480⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨802731002252349068054868205012974004681863864387961706571287186173261062560784, 2898646544566676485952581617215475972758173072124032013362968699899438169136378, -660876801816234217310006380989094423615514553931295249253977884090573815470584, -3667386053582903876648250811089307042511368263971147194967456402904894257572861, -1380653129743920623982814133876629101814552473537373650392967773359299491348219⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D10 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨68907319577704508828264623789514963287052362497812236928793913891827378, 549968850339462606872752490750033805824231684927040757923338285895930542, 226110498548918220868702844505790451165455786952753197326704640601141410, -340564816564124779466753577656165075463536882205692825204062906080445772, -168935359223680178860399344377735834865267998962376276804064339871047694⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨510242246722806182610193206949153238278637423867707169499059480365379488, -1943038422995226007754714882818063040050815195105067757830277981246770382, -2474159481788103356293667863111009045933608759568904940841541269066731471, 815957372026857343266724926694785555259867301087502564667760233495149703, 765139897206406999803562236480716967000207162664247252292552873949142297⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-17764171298517886521920319964741036799557669041304386237013297634435914, 15529240760321232079743467143387084627868294782039925754796304348756614, 21695576550337537099234098296412624881477556738844912904179528007014274, -7325658824502456896016692326930047203591516541829026055730606929260870, -5586494991223594125341762973914020144614240800575677707594112263813476⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨524364482353704913629714940574666269208146559593432148475386445657963964, 1423588438710477381084322700933637439831898674634028693165017106623779896, 315659764557506314363481927281704000988751816347897679047173608343999896, -806748207429224617238426619838847646343567289730023608585549550700972550, -344797231580428136381527805398688294231873512093546324225923102860550162⟩, ⟨0, 0, 1, 1, 0, 1⟩⟩,
+    ⟨⟨558092094533065679132789312190525713698770496065820271595177518181189778359, 1983474015193297234434015762346072788066069046904563122899035457961635555416, -558808052923112077134107457834408067595474909972176051031735059111807136299, -2585827228714453241115549471945404365908448903604479333224596313424994775132, -956202912086778601518928777043409416000846506020897184534506704880141440882⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-237453956728838014299130029633634254513384834844269448430582457219099416, 3461519204384824444141516325511113766034899830277086917868474949151045492, 2095800838044439535153286762569667501789330769194703093052588617022535638, -1876685262915345087824534767172828282326692470320950488427148013953202378, -1037209125069359510192776696207541021949275969596912950527632741741885836⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨-659068065953350090263612921793353505469910831697233291794313827001726181546, -2487133134344666752272563675459008152476390780123069385573192934633934424942, -469687558273070099481428927769023909427715197477688924696462157393810088018, 1932742427422177726698719246175392556333790454494723834272526611173695484939, 831494066517095192450143131011588813031844440822509296063396731613266215660⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨414288405641986057475807045282870441564977478479193303481523936667145799638232, 1488406106328874038406468489457535011529986102864749381707017853262843509313856, -355772955065761700584199870632111172038163462287726976523507526738807892876014, -1866196105536532182372961217107890746449156378660456465312282923638194716484786, -695803610067721357091462879518659711065490191332396768995777447942805716473690⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D11 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-10639284632825120034011818150000749991050686493904637486621625943484090, -84290673771294992548427768666652255671146066996310142593010969418473592, -38928964122776341967369940190982949983492743182386685932923375235529614, 41022637844764685256894171502231789382477204940015655187693113597506292, 20624013806477425084568352696269131073096181327580387327126350720830828⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨366940648512292906238957816290109821097713788039784902934953125549353564, -1192261135106850944162375150525097809858457642411695676782807272568234438, 317190694342054801969141177672907552719843487510512776351513783447193541, 549607373866793032231576284706109936370774760799058893575281000877895224, 10063036772985306709203023081106196055135851281337549937755252467993584⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨1113267866675273373018196723576459049904406816611273191731016686826814744, 1124170875791876938511546117167209188957798959698274062605474851248011378, -481641371024097744471402569496171872542163995416033952942822645758486904, -721986457333644860663802542053810413068916226207077866125292964213875640, -159005724830764863877522895299184818046514031816609826353726381737527736⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨-226131173396886404672188271348207082826154143423267526878287299279755463453, -907128458295888950811108945386177628847387640724749349511664358445439128840, -94173469717670057034100189539008645564717528985102724888114622827808596392, 817425851030246977975521586783663275004562238297306875441228713566807965915, 339359176463089523683046958157354610601807229443878324304028006160303297644⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨16101892215887201842970322247128723153841285193657706571561113011046318274880, 56116772182259820178955585902869807364288873201746631136534763441233946609562, -18070069448607632901880700868604320439751363103428623613699769607697408891082, -66831599692706754461697433383694114999820629042237464840880756639217973605006, -23165719146722858481480435294910282513774162088276308540365431202823973057156⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D12 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨1080535773421114479057558757469465846823656215899532940340960597406580, 13952328612070418019856030718567319696525065422477593891560145083475402, 17297558179318345307388303253507103564788395162306155345602971751503202, -6370232646691529160483291223402577504506330029334836151190649516138490, -6185684416320459469723536806581122528093756102228392087108995711312824⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-120787117718288764693133117232330132072885636752995738832582363627834611, -39339716484826670063931349008747212422184757444221628753960677962841266, 105823744269017814832654525568873220419046498291268396798911876561283913, -18021612941610362994678979788098004902793801523695583386756610733641228, -36075615952198404090889805506953347085438930968217631935770056103814076⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-105062454141568833684019551251981259721496032376035700643571395188925254, 251456847204949258111540928524234455932178543719822988491697094125377308, 143898389702964925652852310803130408136137564504432717178448554101468648, -182849436262740828517499903629098819534210494831706446370212932331440638, -78956022981031046841317215795437003102667637671078540421932227264568746⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨3139950479738084259608031219247158784176068803664955683264385754022465931, -11622861423140069852848918591757272657684399220187402606899775735388770796, 22762986370043738503082164073044838233038683585386374923235292836389993431, 2074846663941600233612486452215247665020724684478834403565080198326171302, -6932207728257471385155227579870215884533006177630067329571841374627601233⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨-20358820981463388862334155880578680343544467320593912102783026068077189134582, -71798906519499158415561628518144234114894399584324740889531445083530516070338, 21194465356643092909761587853476649392647210782649938051304868703628320924457, 84652888822630253754222447950962095620505388676358453730641564352104637556398, 29698709868917750115628568693945504078003185122828874549546947545214607579098⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D13 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-1564652782028479832553252584410853864839046875415562411050614876832870, -18352300157570869113219880915126716890557778633295741257896102841751560, -10500688695183715241077764953728811714901572403076518457197136909261956, 7097411588237803332988515862652830245621141816494709491368959275207418, 3953671881583157839352603075291450588864776367333580740834993303895102⟩, ⟨0, 1, 1, 0, 0, 1⟩⟩,
+    ⟨⟨172580926407109046311641914374428545353697499601002175177452654125567356, 1024402654193043393823425096588443763895524634379687755651902382725373057, 701207827226492319454463561671551666063537066555805211095492467400765474, -328102347106726697459396155839458865941145448793296392655835153163372075, -226759850454094158366324253968463574431268867186863535331732820615027705⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨27634405012900628897434538956394830047058359765217130433306668669611690, 83396914708849623204815264774712687557837481370120341584035038582025126, 31016184989573543025041115771522651982658996742931834134939434033428370, -34783670901755795501073792582279809620046913494654473723368670138063178, -16915997808557740167620082467332448597323368574356463624773185442229434⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨-27024768627183941021808352653540368872898772648030972002194732569313560, 316281808273107323181713025274154045210612979008968767694420874584495299, -647007189689599712176912012725840565346456247980175587585246122795116387, -1204431939462825838024265251997509574680707980424455894920842116930396832, -434828576922431596219897977966719649226313734931411282138089999952217396⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨14015577970843980867820273253058704542000877291309136336875873008513194207973, 50554755392827153410080439844112641014289025587207708120481887474211890230358, -11088120138873946465508531437803107111488333896985297169427914260886347810370, -62189994845891690634505208060760593418199463046567479579780453153139939973057, -23268650284649367116734622377124690315661636318801907901115810801654911782439⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D14 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-71040898044803435583656545209023052159128951617149616657050934056900173, -282152061746097130211238290942092081029245431018370682239391233072386509, -120089729196868518136083420201462661348260889835927522477017368136701243, 104631651020564108104296270660984489856134817151945090913455723686640716, 44022369739651004532140928541281500774697332787152360233719388547980311⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨3485947007540457036804532718100363739798206599743535345969010066988562329009, 12266168994104862368423354590328755427436657060126169400712855849165760671842, -3685237198817808973916885853538372271924004114752329624330710845023530857688, -15910342888017911395707610193495080565280606201807154110508366408948003216717, -5815048729021820122318885837281422445277929870350562726326379679683910485077⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D15 : RationalSparsePolynomial :=
+  ⟨237466438359064045419709157, by decide, [
+    ⟨⟨-174663510965610496790333681, 3775788632686345283960684689, 4961917037720886533275502924, -1496750948526437894318755991, -1599810864166840859980843078⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨2009074833591997792949343911978, 2499291665897166902016958015037, -780600462040840641276477166080, -4216491839471057445245088702579, -1783928090297963006786254338877⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D16 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-7226994871657893814843024977319725597783291954460071786347130470253790, 6504295384492104433358722479587753038004962759014064607712417423228411, 5058896410160525670390117484123807918448304368122050250442991329177653, -2064855677616541089955149993519921599366654844131449081813465848643940, -1445398974331578762968604995463945119556658390892014357269426094050758⟩, ⟨0, 0, 1, 1, 0, 0⟩⟩,
+    ⟨⟨13658188292726884785251120863506776046665625166326256374714848102736909, 39262815905275371815405793221587202737845027972685584273782930014696603, -75974222926786662860015838131709799991170709464218198263224945057649962, -10159427228197914389922908317149969411233160162914598452286281490469237, 19003994875750757551119198044978584834627514221167032212975944124290583⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨70263723214422668340528949219774803058249138540228708317283469714186236047, 263005737261143538715493344140689378723907609323802889174738117581872907346, 8040060693641932741892620085384693262142595822550477352009234535894912253, -373926781650359063003069366898671851185138494394661604819837271157440873608, -165145802497499325226110826455495411204797467584812572399878072290333792479⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨16105874285409020501650169949455388475059907784225302838145033619422732, -10634006739725186613269022466627596236738272447276962771339349120516291, -16725330988693982828636714947511364954869904237464737562689073374015914, 3303769084186465743928239989631874558986647750610318530901545357830304, 4129711355233082179910299987039843198733309688262898163626931697287880⟩, ⟨0, 0, 0, 2, 0, 0⟩⟩,
+    ⟨⟨-47511428784606483032060898713602285550265894822212089450675654299693090, -6326881708953158992694553361486947576431902107390820115140274237962159, 105959150335143868585133763281688311743697707673745879422052468437221445, -9076942580691018971964386655467137024203127094597153123868591444806706, -30798837281705258696321596270737068837492581586245964013089063563197077⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨160935899936440291340975691765716456505412214268020209525580183518075664866, 578083691182419661506244133581816329815887736315896185327583925508798012450, -175526012650881062768396322472691259877660177643596000589794384118188199615, -706229987424801447126333208627644560899747304473552059343839038823029144321, -250424773497235162595555926980262742707990926203242772051846150933135632966⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-347942413303596426209812038745069616969408660600301328491474587493825678, -660182727745884413652323176249565891074727818595732097536944879517246980, 1533641924758800564399920295670636355111695999229727205827333399355854623, 84402130089124449755470012280374790245885028676798377987144825003212768, -443999792017931200310014743348930588249439144919296033432405384632129232⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨943224395913316206526490037497317763707513126444520448527001005987445929102, 3121992281015332860916038118419042986893595980766668048896710317034330518629, -1517127485617653704183537235774738661743340001710779304805080336603908487650, -3489542200001379004178625911285538449711767349850856003318794213372736754294, -1034320728031337033123513866903928437043962289963875600811659554368198271290⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-2169721030086595004881862638534920686527675529365090547965235317788420845756866, -7799464096149430633363291485826546560831992085061018779956040404451195111847116, 1874681613317484478817041618229210592635276498183369782845762557559481298068901, 9794381798422327852926782917000380949691058622817011194136349156214732673287522, 3651161830890247505919942539481491962128838004596118746560547102108433362278141⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D17 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨419432897461548844834786073543448703800584958003624032048897513059946114, 856399511385749825375346177585884382988894181083720181786964290612545053, -1932941100563152509560162993960960617553972828143192190799129888370608204, -130888722529207131751893002980308702635260735260124110734199460448130352, 542064162059080066340451021925378372128763338474342087696533166960272680⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-952034407395888405114290295769086750478115429622654189240630857747466453435, -3111367500270191007617468900830227242197908846612895765796059944999612607721, 1657082885134547846827517391949668048304516178487136646590694263888441527246, 3378680759301637557413165951076626305958181905523766753744280215481848368798, 940701669476137585455360558356218237733363533155811049940907630993604153589⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-2753033240585055563152132700615608295022260105116171007666080690419739190589331, -9891890705354618172074212749819827493883987982731982744624484081496443162634404, 2383254673015084527324483166014493852878360647140836088261271280531019921078376, 12418077699923402047223133932293959670214370438186249206504121508454062483091200, 4627208042422975834576018036299164299556122358462502048817785926144623041079053⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D18 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨521944880757847478095316060035331574812887267371520079375977861982242808, 6572441769292887819307444035618178650813390796779506304105285668423159707, -19283993534609021654743169243028731995228950010420517311292455548975520171, 3144438839781038237306355509757496768974174758250629521008538592537883520, 7810636186274577710281638598487295629142581770731680190383409331061866379⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-6767346604762703958688341074866018905163377463134862105722784681604416855, -29118997037341425791179634982294516130594817854450328430027213396727282312, 19199373495803600862847072492717794553266887674881141888248256968659466214, 27668613265893030920278292112587136957508574693632966622637124965929104978, 5569411366178677037527519529281955749935198688399361294841505003465697863⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨390387488220110614292126148172139566351317445693288030422559007091561478925194, 1403299576870354917187711946229821290881371681946581764071950218744713015447395, -333629010886450586314150091752837859990707607964322881021375186869789043703534, -1764768924127875880483264256892445467986976289112376136890566408848031000491644, -659247197912206720457502868671818838627712096860402592431327077088637546630188⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D19 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨119738368928521412604405926849971704449083522160430159975881207349410603338360, 428842420899285403945898100388212938603746047082029527437172869736393132277238, -107357195597558153354259766412271651649840971865187801092670993385697613852082, -533422100739353823799209527979621255925787387444995798554397482752737724634274, -196962593884866450500651062128759185584578302888341525292632911486051751621483⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D20 : RationalSparsePolynomial :=
+  ⟨9070824594820477088157976146252830090623293624471046863393979, by decide, [
+    ⟨⟨4246316593170516087525050624364181866431335312662644029203474806, 40598522331377867103121080568213982612342397834813394380399716894, 16201776644621828631010257858535819213085494777879783554701146694, -25411863430444702224184626399891299642927524428052408416514662050, -12204982194797208852540481215985730886440445334075562748521160224⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-31862840257762144737589727513798700136724950281223025992321497120248, -117244338041864847813892726213196936363947302172987769574071274356910, 16435233926130051261820059296086937064803212602745386838983291952166, 132659320102115908942025314664318797655474846884796367363558813713520, 50427561471460588592691155860758562050232158132916548654955616840429⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D21 : RationalSparsePolynomial :=
+  ⟨9070824594820477088157976146252830090623293624471046863393979, by decide, [
+    ⟨⟨9772692330027138318726472956489827587662046256938062233224957932, 21799566399046034526284355768040973394560795328191790909149433600, 3101671965839473698485890597777652497450030226759530147029970950, -12629514830743555137144494960976587678676177821047411170768731250, -5030214608606789394551274777740044409799523276822841085224669580⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-13423356003207754104451594864841397828756011960273141425190469300429, -47765075760603102877097388956568584225017844724866696566467647993532, 11646689168588274301007228720384533758528026614626290180463652258484, 51188813354761049104635204733453401648911790243143817517015236220435, 17750059825126372118895412030389241724155930997980110492038981518966⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D22 : RationalSparsePolynomial :=
+  ⟨393942245820867202302840286530915312535909, by decide, [
+    ⟨⟨-34535299650541021664481434583634401118223830, -170299293704903494249521607933672820341063500, -70471049642063346002943892450417313744711792, 84627301943533843340474269122661340979509900, 41632617399198591620551663970888255848441734⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨117938995280594941677626527969717001611530006936, 443021402190374932617190427931103242758195623435, -13290673997226111115386321096884977967279170749, -445831020994167390449137085354545498218744228817, -174699051744407419360943944060099884499281803102⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D23 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-12199149028497803007032808049202318962534973997257025494248567731922708, 18736346780844585635984342230315834095557808918112022943834507768616641, 17771845406185741849245429273819317121380499629510010113167851942094590, -15122011285979423020864900902958323303572888564899965523502799613680428, -5700022448347610606967109504133410589887182865079320919171447063041517⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨197892704028014265568685954880337659691563596756125460864000315086974503444, 706028593656796792027361911152268178622077360319448281863513582202570023694, -175053265509301340792415723678360826573350733973781644924750257713324713968, -877004136759395289764026839294154539785430491491786339041207162182109775788, -324171398220278670527183612737535260096149631547203561513647014980067982730⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D24 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-104428313690290526599079852098463978073818045055599467123589671932827822, -265790871442052728394581363436129663291620238411819723563644062368407205, 396539794447403574150846693509217079075436967842711236333151127738199557, 120853176417072823691327170569857146294310061358304120815839646004343121, -75649612336208260744416006804631126396568563965447787874952486587161316⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨-2241740277768297168012484542030550735122022376186171938513153769000479065591, -8184670622032282811714469369276168634397749370699373662713198650478927615949, 1573937663820998212709390016508471139744286057744634004000225043505141380104, 10489695171573427551934735507354320318112514708455297762368615582649689170604, 4046010333718776153041643613143849905241207332274805448884203220713545575808⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D25 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨178520334657566302923052331165145667827222392301948611160023279126326775, 496326304777732012746161672033819236562017995146462117682971490711400395, -567810387716472848770209644838392276104672781363817870386090521854976719, -364681804504767140523906368849001310632818360612404868222419382487541282, 23275315105920653517126999772007229710053691494227538461891737785703846⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨8878216768020172899025612462619677158178594136174878832028995796920523205780, 32084451015131303890045681178953209239669996499835790914118588264860353161503, -7179765448415611235300048577320602359668629125116792118439432003247568335139, -40589720724050016500093103412756092237859339697984111129110354453411144494358, -15316412405126733229303585541923107527270404191274936367095411207652606507366⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D26 : RationalSparsePolynomial :=
+  ⟨241795212832041601597183, by decide, [
+    ⟨⟨73320058802943147529935498, 250897654140987261276349360, -64558809974041232991769006, -317920443457700156422164270, -118316074415668364998937154⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D27 : RationalSparsePolynomial :=
+  ⟨217568060398138345127, by decide, [
+    ⟨⟨172631844173193508013, 592815594555216199178, -122798837736502589021, -299164098148662691037, -51543314258135378057⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16D : Fin 27 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_16D1, homogeneousCompletion5Pair12_16D2, homogeneousCompletion5Pair12_16D3, homogeneousCompletion5Pair12_16D4, homogeneousCompletion5Pair12_16D5, homogeneousCompletion5Pair12_16D6, homogeneousCompletion5Pair12_16D7, homogeneousCompletion5Pair12_16D8, homogeneousCompletion5Pair12_16D9, homogeneousCompletion5Pair12_16D10, homogeneousCompletion5Pair12_16D11, homogeneousCompletion5Pair12_16D12, homogeneousCompletion5Pair12_16D13, homogeneousCompletion5Pair12_16D14, homogeneousCompletion5Pair12_16D15, homogeneousCompletion5Pair12_16D16, homogeneousCompletion5Pair12_16D17, homogeneousCompletion5Pair12_16D18, homogeneousCompletion5Pair12_16D19, homogeneousCompletion5Pair12_16D20, homogeneousCompletion5Pair12_16D21, homogeneousCompletion5Pair12_16D22, homogeneousCompletion5Pair12_16D23, homogeneousCompletion5Pair12_16D24, homogeneousCompletion5Pair12_16D25, homogeneousCompletion5Pair12_16D26, homogeneousCompletion5Pair12_16D27]
+
+def homogeneousCompletion5Pair12_16W1 : RationalSparsePolynomial :=
+  ⟨1042948126341268525207632896886038859901524134613100657270958625431061304622392481, by decide, [
+    ⟨⟨-333869923806278774189064596957739329544754246396158807863510829012591371782419822, -292904324037297998053326879468522970111873239983154633526984213734949211191434747, 125170817785259583780217973257594930632026035964564044360128490343851345296157219, 111127647161816990850252678217127456439769222248087535062320810829793923755792970, 8728057904408020055511834925847576210011765807441737592515775775760139498915202⟩, ⟨0, 2, 0, 0, 0, 0⟩⟩,
+    ⟨⟨212325988976323742262323137477858293480237244848935745937738889140112655058998039, 228187259191572606739745917071253031790780439113261314948568828219392640065844983, -26379864489082571036119992213257642071379752267139962879002749636954142791193822, -61207623012677649874856168038191181893593743145742451952136398013535515118653488, -21141567109195517555591770088770814775836870826360583273765911169698951358716093⟩, ⟨0, 1, 1, 0, 0, 0⟩⟩,
+    ⟨⟨986918401089786597384731053630284174169980660144624979533217400208429085700938413, -594212670301372515355521578050785207685705082306253425994195830206628351684867057, -1434947173849125309811919453121447132966955073228119268386538354625858235962770901, 198960317671508313063789066138979392164542650046780037591967600922476966498870854, 331892132180523381960383086536289548076153464670898076422396567935301388241420261⟩, ⟨0, 1, 0, 1, 0, 0⟩⟩,
+    ⟨⟨-31855026708647472388103033117225132490188306200456214048715239319245742296830757, 225134295127859072792328626404254462314174557177333765682452034545401595365006132, 133826243641462479468443005182144492275308649949437662226356420721168685434833851, -89496173063144227486753035914888713528396021125072558324988218714731414097349891, -38323232072531220663712611500257298035936391263922483336245298704436257609762427⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨7486529243901921362004477153850935474286263776581282461102675917438917706779013189, 12378666520942151445305193749126872329943502602953784458294032724798611130362025153, -36590370667433511792289427864373292138082940725819931863480898950001174964011983767, -1681517532667200335412529973951573697529329173820706285616416653601873782017063033, 10244446442260436918337492441437351663189892176106833590184608402012008421310935655⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨-33200858921956845785132149879624854205535425877326569454727308968690536387214055, 91706563191451237395149565749181389265822115108105365899533841910213433122980149, 534886824835449548325440745188056085298687587968811338083935730810621805589846014, -37615475558810697303466899435807772720179194677925429468575613676761871250096686, -145210885685720900086493965343012860282215825872347447394552602689803610917590835⟩, ⟨0, 0, 1, 1, 0, 0⟩⟩,
+    ⟨⟨-66956885114885142669582370340429772443719387011539890154990014508845284673129089, -86065606672296005366431562840125810749584919750714509814419258088355778425305817, 409761942704202483686587957608358188869939389047877048563559385566781724098642748, 23443965988988480370428810501630916025013456569007539232376499189291448168025319, -131749193206086653600690118290001189171687463318966546937158309395402103800793886⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨-1445046336668309641714297961350170535212744082405025537578484190040119380600056683647, -3387387393766339920804835035283076237315061371855195091160732246610404814400415801194, 6587733019141723585114384769846823690365877825919580002124826508096704709480602241843, 767641313177836787490195005404674549009971500595278444311361007451458842851696493507, -1757728491362825980550346290622158448273873730972514988248861064490116311377833605142⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨217825412072475727316444942369946255622661938621259134702483948726253201867529086, 219437404100166019737791488875708819828233928486091646327602468797134782772360567, -828488320687711489044976042527821539496920458379631447279274715049604686382988205, 289385239723929464644613897146550089354106758979243408504137874038379390988779975, 393073452821766601935240171065541232753642418400687066438297173603048961008250304⟩, ⟨0, 0, 0, 2, 0, 0⟩⟩,
+    ⟨⟨-172918136275226771737681879141257460669002720979977681043193761808537088343794972, 176560882772752105891440998490986714394890411284722474644866443144101946508394843, 863623637458196043942778040369687360576674428915350704417335568019932822228059395, -245188805597765130400943109791058183886296266995915846154851856907357861027013207, -355555251134782377123069923122136575282539237726247074481321753048857308338455870⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-5789905330965240629692157701493947731625902866421909537452387666575592135468912648180, -21881802778469797010680502112543115093397452330411371988345510914652918667891890105571, 533630510451790903569789591542076310107147650917251768095271350529426694333620633143, 20662580373937145915892786958482168759403381599878127405899644766656917653925372443716, 7954462958665154509954923841915491252089579522584343888807339526206255281234622107936⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-1274451139140965425643988995140811325801671853163599975881444808539465682082538036, 170146021745971072421537183195913493045271272789122454604844008593473294373617968, 2458324930341667838255818088714114891034544162912758207698048589442081993735637712, 5150610488008696061540751010648736362139850748789022536737097482973720306352726, -530286849491928622515976791998220414772270507049829468743221650151571405926352854⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨7339396860178781661080379855867447279933865734715237071542519502076509726764292691196, 29602713016735429154570743216204905325810362755455517968905657233063454792916389919406, 11460923806447494600229243355790047790684631981318512075187143838616239595707604637108, -26410907647305185452642849430059024023629866520587079904530857636687157404826849190654, -13235345777818581841524675917077738913239095701949658021670649709698136266759148309354⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16W2 : RationalSparsePolynomial :=
+  ⟨1042948126341268525207632896886038859901524134613100657270958625431061304622392481, by decide, [
+    ⟨⟨-2898484818247205769875395133038773568471700068607972348211965668177783872710158868, 2464656605008245838387158676516464880130729083005076692578791634158459173671737673, 4041270318982303027691323098019484907677863568997664333568936537886374887562046979, -1032802229452265784782725899104748092772300430508547750387732031760236812823587843, -1074458805340310158736436764455818893783959399614774010825382917561812832944854874⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨3839983060904383796011218574446741218399631302458692064177836275855293388815287756, 2550915524352655704205329192524398783470394930376515876181122843911493891992098648, -9174359817738638515423609783764262577733951597671029438101032027289070067126624840, -729482671279258689781091717334048235098900381162433897713178551427829310355145666, 2272625652913603956635742951874308368089517791810212286310158024831104975501959638⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨-18426282171293732393951264741944987561357204249191044184928685552859575470834637, -704717900930509277125970776723109589831730943143087245289546598645542278066870997, -380510166888269592905826333718845551959942878919432629109824982364480152743521130, 267576112831770805872628550229848165837216546073331831589312314059180759248973400, 143505046818944429782294616607258144445433259760498798015657035126635143235826903⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨-138347999388144642913054566228080830718350289780568868065424208573764249483566335290, -471576297169056287739863411904950153126887277749590377997141923021575033347295904140, 153392833841993443982760933035567322667055132664013942832578740503566825084947747550, 596514827010124186061449792757501089646282012476416006356456883677193507351057323702, 212607862694269567079942251930734525668693038178917311183756861304766037522989319314⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-434274788396267729734697351511742151541797724641259646343839733387575501190546962, -250503765014138331835965303038948348277660954394225005915684902342586466792275611, -190297046430156637094873249467234434069241231888723396881343778680403885323483818, 466481228779917199207909685625519835192705065887077740429059974992007409394652945, 290997231751619757065960443652312653559678748844075920129256394109260971893611456⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-868077664234522324423086676468259894079503774755371515559698754763249645660453382, -350024168940568614191282430835965545257869285031708086343645737741690161560801894, 2321373776027664747820787333252670223689509026928559894628147337886784396917792638, 350496081498581749237590457391189954261960959558855863471626449753591518281442436, -435650824144951454632889884739892511245323877242518269404967897452506403735058172⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨533083177825472297760142276949723232445768824995507249924821437215711874337766178, -768514481459784037898285198563880240209215700225489288525586906274139751430527659, -751382583310228625864207977471716868745496351299367581386172362738057353638985320, 83885212363618265187136082825342740520190097751663183944706648158962291032529291, 104290213450213747228179767841185991177596865268784309533208348045281173825176608⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-1415378961844971585196135969887915271370745888569835911953039681060631669249088727874, -1832264306454047554200091552882826703598776647738095874313184982031873534985621622542, 11807692759286431822125040161393964439061735733394625472553349319372861408192369638604, 15224592187041740233754969631926758959324399211318469761670656216924068907909621142298, 4572149265384520757201173235749707847374315816736960356439724620404651261693499701111⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-9176893828756154384771198771527581598991470540874343823011070850585432481978433472774, -34285266532666732581559279986294600906892787591882291817514073600957507603340322437654, -4802538420227446799805481785030116527550157883909100400787615784712704772833982714040, 28367323670988696626252532735237804052232499576164927165202002904221622409270439913960, 11910172411275240373550117316268534493677456065082895396468776693462604352720297727440⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16W3 : RationalSparsePolynomial :=
+  ⟨13526631405335635155871707505830817074313082705999501262755223075871471, by decide, [
+    ⟨⟨304846736902070716084620013578107551562113472829212598068391319273236, -2723136627286828730783094812830715431508460962788084527671603053273176, -2004146087436111373367591184471307544813378609457783439620314997991447, 994135536534947111850664664344133808234151743490971449146581406192288, 549342896267664925609622625003476420022895485029492379572219581947122⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨-7346180054206468450281848969548006112955568202441083441567896322551720, -2285358897596716097652044037574608533856686969610063992632904393484036, 6952880785119360169295137960357692079134191842186461475177987161335874, 3341134261199797535130775643692149274372112264338392998517622316506522, 164867537614806588637226785206205071654194452378850076852002009220076⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨-27718124783213770249337353775403383012206762214710451724289971450739, -238431562802750284283180951844846843907384549028579593743746021096531, 1403851831180528546599660275739070827826645756546585444088830813051740, -374080788012144256732389491487200002665992127613109446810869653798198, -615932946779025058691117159518423647118953202937340197219485535493228⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-2031726787395664412511493741362271722690267013436041275408597077150725310, -7239741775947358603156560417830032268657948507812183655499405422326887910, 2014095679538052598702098470491378215534623977948263714851666552609634282, 9771197452913435434341433590243173570509325099390957524863728554754377552, 3668696812414831222987271454249773871213820879672847916852809725611322172⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨1056729380006491064213148621803269271955751123617514386888959494571126, 5715894332621993804025116952823135744533743832290554974785472470261454, 5254944913622152691286973252407970483600054516743791557810442278052547, -2141532481810192848348548167513484936303203987559604858890194085905224, -1925134128165649538684500272245787977618355507754174745636033377691525⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-8813963088158513324337211835883665369385687176282306454941931939476275004, -22970619560421840893258415237212615912352971604523474378349979804600863619, 32689761410426404297753034486079125191044660940213098716275690215833791781, 2946252916643497370494156909178423933533733126541783545822591726066512374, -9925493309429795345226223321186314611902480132337517296040388462626283499⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨24637030975967870261417049491480326924433024191263111853733952345940255998, 62388951833819302761905408379445115973625658035047894219523457461572321346, -90088996554495929921850782274584615479410895198932363214637218040772602888, -25651839406386257251225595110505245890927832871482278607628474503972150572, 18229745658666288404616153984996033737872272461397519063119665160403023978⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16W4 : RationalSparsePolynomial :=
+  ⟨56705698043205351451522163533062979830774331, by decide, [
+    ⟨⟨514688978384421012242218847997219768375122, -35750576690383739487411947692824863329941702, -17220599501041083769809225170140066329128286, 14271334185785218879544076113549545166856545, 7031313581837531259810761447462676129505494⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨23191877083338465500378146971941909647983860, 29844957045243871712320789219721202147765130, -13921032321085498501828850255694044255067196, -7682457918674248236427079943773732036531514, 2395891200711047760536113089338743433047162⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨4257987711300906570396242432669151589319416, 26030535159518849137574715972183643403998993, 10305515331145381573180958385784811467269365, -8988360025784115727817738335747932532276197, -4015213191483722390681077633761196211394198⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨-43050843625044201533302421412968631358954768, -33584605164145372250588915137950320277848850, 37722247371703723319385601122065199003186634, 30625436433280495134815478828355976989222438, 3101071888152329832545441715132792896833180⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-6733219984830462325196076512822732227876130, 21103059827949503004256145536148855414395468, 5336142605219584435004661952291092263926775, -2831198753543504703038279268576847579358384, 432839416966942025896279599706241254035798⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-416474639337372642162378905802740397645060548, -725555629424841718768518284689419484201367272, 1706149564026756420222835030274537892357527350, 149683533937316734953936962239750164682581636, -452383103838441795881570617566340593461796596⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨5997802239975613270524203237141978015411851, 10615308193784909117331839851904298154529665, 391644074055115630155876053409800059377370, -3840717654326656454761970221352399613119171, -951813381956151182341536453718843749864767⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨1220263074139703140460546662440678628224919132, 2269564269425002101623239867727652891340680431, -5659352289940901189177190498680525171634526635, -382041527795369384529728043482004410902989435, 1568858084224454487164643812456084945237286034⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-3376402303026523462044703476119374011230833800, -6950817434677212002316286896245946580804228658, 15646490340493585346891349060701213903960430100, 1164935331379734520559584288743820906694920686, -4371419967845878291640645272141869423853054644⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_16W : Fin 4 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_16W1, homogeneousCompletion5Pair12_16W2, homogeneousCompletion5Pair12_16W3, homogeneousCompletion5Pair12_16W4]
+
+def homogeneousCompletion5Pair12_16SPTerms :=
+  [(homogeneousCompletion5Pair12_16U, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16V, homogeneousCompletion5G16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D1, homogeneousCompletion5G1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D2, homogeneousCompletion5G2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D3, homogeneousCompletion5G3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D4, homogeneousCompletion5G4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D5, homogeneousCompletion5G5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D6, homogeneousCompletion5G6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D7, homogeneousCompletion5G7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D8, homogeneousCompletion5G8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D9, homogeneousCompletion5G9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D10, homogeneousCompletion5G10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D11, homogeneousCompletion5G11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D12, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D13, homogeneousCompletion5G13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D14, homogeneousCompletion5G14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D15, homogeneousCompletion5G15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D16, homogeneousCompletion5G16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D17, homogeneousCompletion5G17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D18, homogeneousCompletion5G18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D19, homogeneousCompletion5G19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D20, homogeneousCompletion5G20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D21, homogeneousCompletion5G21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D22, homogeneousCompletion5G22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D23, homogeneousCompletion5G23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D24, homogeneousCompletion5G24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D25, homogeneousCompletion5G25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D26, homogeneousCompletion5G26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D27, homogeneousCompletion5G27)]
+
+def homogeneousCompletion5Pair12_16LastTerms :=
+  [(homogeneousCompletion5Pair12_16U, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16V, homogeneousCompletion5M5_16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D1, homogeneousCompletion5M5_1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D2, homogeneousCompletion5M5_2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D3, homogeneousCompletion5M5_3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D4, homogeneousCompletion5M5_4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D5, homogeneousCompletion5M5_5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D6, homogeneousCompletion5M5_6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D7, homogeneousCompletion5M5_7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D8, homogeneousCompletion5M5_8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D9, homogeneousCompletion5M5_9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D10, homogeneousCompletion5M5_10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D11, homogeneousCompletion5M5_11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D12, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D13, homogeneousCompletion5M5_13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D14, homogeneousCompletion5M5_14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D15, homogeneousCompletion5M5_15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D16, homogeneousCompletion5M5_16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D17, homogeneousCompletion5M5_17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D18, homogeneousCompletion5M5_18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D19, homogeneousCompletion5M5_19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D20, homogeneousCompletion5M5_20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D21, homogeneousCompletion5M5_21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D22, homogeneousCompletion5M5_22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D23, homogeneousCompletion5M5_23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D24, homogeneousCompletion5M5_24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D25, homogeneousCompletion5M5_25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D26, homogeneousCompletion5M5_26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16D27, homogeneousCompletion5M5_27),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16W1, homogeneousCompletion5Original1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16W2, homogeneousCompletion5Original2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16W3, homogeneousCompletion5Original3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_16W4, homogeneousCompletion5Original4)]
+
+def homogeneousCompletion5Pair12_17U : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 0, 1, 0, 2, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17V : RationalSparsePolynomial :=
+  ⟨1, by decide, [
+    ⟨⟨1, 0, 0, 0, 0⟩, ⟨0, 2, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D1 : RationalSparsePolynomial :=
+  ⟨103242783880827054497757499675996079968332742206572454090673292432197, by decide, [
+    ⟨⟨-131110673544799895216401126113159942260468246918437508235342949121396, -260795137440350555823001350626805216466059159393429446396367381135474, 577845739966298740375802197493656184957551483987131234517740625836313, 22412167920614978269071884704211990720455580896270068208619846999540, -165045357693300019081064500735382084536795374103316524954729030841567⟩, ⟨0, 1, 0, 0, 1, 2⟩⟩,
+    ⟨⟨-74669444823122714766189809742391336438028083600644412961135146359224498, -162070516300808152965123611262748485116157574154179732269125460137053550, 229290960947090395308998881268452721073173546400360484870573524851992477, 114611320682518064383276080045394405667637129368098453423400851217192900, -12536722495429212432148995273321785254177503026704920907760073696407310⟩, ⟨0, 1, 0, 0, 0, 3⟩⟩,
+    ⟨⟨-16487243806469943573695520871390007744777488654306389917461428013430934, 5893210842929540800661799299917847453557417861072172914401522629769722, 24460361487343333961871338369918582623177342084588792681784426000309482, -2176175974499970897397612227097626189523452934615625300840485740459288, -6520040765011851549700146053131795712411645300037541432544475409745767⟩, ⟨0, 0, 1, 0, 1, 2⟩⟩,
+    ⟨⟨-75064365111216128421014193689265509264676348499094598250453263303853658, -563221475824689345842091748331561456103698457208985725252908224630560930, 1246147491646429289357530958011036337344649906787152364470700173880073551, 10171595284238516638750887216263625807908227764978208370713917728401390, -407630887285901197573899174455221145157283101171363045570292528110288314⟩, ⟨0, 0, 1, 0, 0, 3⟩⟩,
+    ⟨⟨-412971135523308217991029998703984319873330968826289816362693169728788, 1961612893735714035457392493843925519398322101924876627722792556211743, -1755127325974059926461877494491933359461656617511731719541445971347349, -722699487165789381484302497731972559778329195446007178634713047025379, 722699487165789381484302497731972559778329195446007178634713047025379⟩, ⟨0, 0, 0, 2, 0, 2⟩⟩,
+    ⟨⟨10232130159375172865879629644105123321694798413975333588809021151631508, 13202229713119884790066156825538332382385884502037183186187356794910277, -36762812101610040126720568601597955967520092018010151012760953806465393, -2157045381732464833993037211905998636825592950345845818198944529924872, 10445570624617302270448101912531437030521320960612479489195550116170450⟩, ⟨0, 0, 0, 1, 1, 2⟩⟩,
+    ⟨⟨-3396945392172985950689341110954435736381419962871629743397150588306380464, -8399781301255067576191575420405070431518797746098289697799447401777293209, 12034887876030632028995152123758287666915264318310292425969267118414189477, 5083757450700034584313156576930052908256904742101061972023031714075005733, -1566201255990976389086965588695101677577150345616426470158782250904082631⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨155142109987718680329194418284244928286654109336073527350465569938085633, 347830816766936019792209583207073606129420976626599004788106633812684443, -730392689979954182805739591892962475882675427330908181539198784393811147, -65739379792381792079770710088214665406519885124951722717774482682126931, 203499468775321045811428473537220885570731612224114593316260243666335267⟩, ⟨0, 0, 0, 0, 2, 2⟩⟩,
+    ⟨⟨-42007727936064359350297766726528248587116241147851022988692028206481640195, -106203147275206540842151336679177129686027483684887115696885042236111938192, 162079762711411702846433016132782543791172887606071935893224437105848117022, 43228144469167845954031186219119986177579725555116671503738598157592054003, -33911853795894666182958866457619613707438470305566595511080893084196907316⟩, ⟨0, 0, 0, 0, 1, 3⟩⟩,
+    ⟨⟨9228163862758319851052953188129239358614132909875883355352733348647290692168, 33457290306346597579609387668764977459669762723158726400503473791821299256362, -6457347255535250423024194529753271671230848975086244027854704479671093780331, -43163775729807814887640697906988488292374144383753011955754942884009536550166, -16679704590896662791856650398180260393404089434227406725367798460851376767412⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D2 : RationalSparsePolynomial :=
+  ⟨103242783880827054497757499675996079968332742206572454090673292432197, by decide, [
+    ⟨⟨1565933046956561033165137346455960721138161418061781487833059389958664778, 4862413677754841211617925998070658685804702171801493534450791628608051788, -6728129858641964311424842239891738152673564444754750863250186160468786896, -1240159487215172294624011233618484556063027532270846184197803634438981707, 1737280708917370750154350560833317325310237419743833931797852133258567554⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨-2163866474499571284525921567974592398735139671948253441564749851249622503409, -8847075654136861342461040984235275005979600842630998835971805668924334542479, 366901677825551856021127476014241608437910976287132876335739539393906443383, 11494997738634381272517020448088898744587744888416284932489763169081260570444, 4799170720098699861070344432732534636502208748793272129782989632900372459572⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D3 : RationalSparsePolynomial :=
+  ⟨103242783880827054497757499675996079968332742206572454090673292432197, by decide, [
+    ⟨⟨34848088762325215266634758834424190329667947546988753541728890071911124, 15201428257608901053995231218216679824530537966881387381474547726665366, -69068212499538863493118156988466555137391330120943526944915140449982942, -1497290774858048953342289122025397655885149045364809045798276951153454, 19175380007737673017254084647391673166674737678029125535893692118283764⟩, ⟨0, 0, 1, 0, 0, 3⟩⟩,
+    ⟨⟨274948884346149910041766100408967867911284954861591060409276574076002395, 91882585912110465035974761670920615947553467815210974394617532683309820, -462180711711147769885225936687523416960605849931159106570003702791966092, -855321118407490427077371447191018611716528891148181309673161061271692, 135413592266806995393213042808724487025685791958117400024536960590757258⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨1119712340373834757943992302438110787255992752738983321839053172188935612325, 2192248451216480165101950603053763681694952227709103434952300828792720811564, -2202246861352622810602688810101447089704426695967242697910300106119780416872, -2152199553230361789551853737445187916212958064573306620111827098599775549988, -298646327024503510326756963933900357084162842657345974383506442658386270718⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D4 : RationalSparsePolynomial :=
+  ⟨21587858032642185947246287, by decide, [
+    ⟨⟨-2042388922801130867775132123, 273365357988250244676020908, 2228166647274001764094242104, -20562538355688108107287564, -572160603833160592514052668⟩, ⟨0, 1, 0, 0, 0, 3⟩⟩,
+    ⟨⟨-1263217126477580613144928496, 147878973707217287684525838, 1100211913667603113618578436, -65565079392263784601383852, -193045746815749322477189570⟩, ⟨0, 0, 1, 0, 0, 3⟩⟩,
+    ⟨⟨65335094041219385635602754866, -36153063305999794221710795944, -70447111657326905656664130468, 13573488850564599440698451556, 14964045693415336599881791706⟩, ⟨0, 0, 0, 1, 0, 3⟩⟩,
+    ⟨⟨4039818277447328261958883069645, -663210202161746184234845755045, -5955180523686487720955321699924, 113710685209291492656619147792, 1309416217685545986410367203432⟩, ⟨0, 0, 0, 0, 0, 4⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D5 : RationalSparsePolynomial :=
+  ⟨1, by decide, []⟩
+
+def homogeneousCompletion5Pair12_17D6 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-2561886401117000577228355813274011030656169891688831835867919614086407, 29500244164244574133582385074653802074437454134371036548301386205926275, 20867495079514250365678906739016156998052132837986993391059206875307191, -12430775573557906080174275950037757646615305970237202141891411544173861, -7228114785348705388538617613208118450831906057421728116425402098372334⟩, ⟨0, 1, 1, 0, 0, 1⟩⟩,
+    ⟨⟨20329025823523228382645269253696616176039043283161639513390422407333319, -40495231808446050220787771416681601638544178515375195536640844315336524, 11590080992494736310319416567478627128817825458027746054699967385625394, 8230358249722660102592846681890411520057994243474272614651417531935686, -5613081190539416619539496598885160940625299256648274754915081307610646⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨777523005942788238065551553521539876380539118294393297207795646699550, -600993922166052196592734376613413070572187008787203743564523476843912, -385018879918950772475249333243010007199166561777440474261602661851286, 235329003845358464212823458935591361113031531770418236817166155233620, 87325986966023616815906732901474675757546568243468439228515932973045⟩, ⟨0, 1, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-205700147464100732673318855485129392610313025431316913256524594000149041, -334133342072011032135909570719249709184574225461189494494617702904840092, 844863536086764687490532902476486967642823215592309840901101720730240011, 55016239204338407491783751010713983446637414027084544006763443549048183, -234093644125635497389690626140512017784204684268726219434985253252743534⟩, ⟨0, 1, 0, 0, 1, 1⟩⟩,
+    ⟨⟨86816778206017623491644719733839833709020802686435650567143206885755034219, 200031731845462499619746264926531169494564111514968212491783300866854501305, -350129259303863206296588937545193922137870798104910820732994712779695183818, -81815278249944533309641577346845104952516774693399760008309071878889346766, 74383924934835097946255962963403188205682551025546404535943102179054896619⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-72381484830869126490775888263931553012700623374702931714333899439743358, -32005160247930756350229417783445184024828171676946983339683393321223869, 77319435974405803639023012852181428061655321419391194443912697155271366, 56970918471077597145533537993166875097635560250103296721135796525729341, 10283933932276026808148354013767220877915368415529490440363967999702291⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨-7949694358823683196327327475051698157561621149906078964981843517279169, 2684312380901503416941694991575898079176651297370883806357505603237122, 7330237655538720869340782476995721677751624696666644240437803762685987, -825942271046616435982059997407968639746661937652579632725386339457576, -1755127325974059926461877494491933359461656617511731719541445971347349⟩, ⟨0, 0, 1, 1, 1, 0⟩⟩,
+    ⟨⟨1035597422495112704754340492041676654102507624183159873347791922813670768, 3128529721698380658729907140205845917483721346874323898268810153191472228, -4830664640074866041007029389455525458339133924357706698615696313786363153, -529050525857704006812789670147770863086875959816594951140134846253742712, 1413660307115632884917693682665969722218484107260148850792525928162949051⟩, ⟨0, 0, 1, 1, 0, 1⟩⟩,
+    ⟨⟨-1913081370580561592449298394524158770894133207945692099748596916858880, -18385560437905223137681439199637970782854494484713086967284232755868921, 23595606615634448232354649205142815809692191852530058641712207449168060, 6426542052297683053150636661905766417431413995390050349511671848934117, -6601273632610994849000328264667191297079094268322135006282435666203000⟩, ⟨0, 0, 1, 0, 2, 0⟩⟩,
+    ⟨⟨-9679780518970012840389426303093776635280866465768054491879403781561286197, -27270841032236570750470482464416058218165793973491211463345288906178526544, 19426833293652660012392986879783361924965992541098285681250418089321237441, 27815107896230150889314842146636626567285308190378571074675457003122622909, 6082647524711023758034212227873270971614684260024857538017766635288925344⟩, ⟨0, 0, 1, 0, 1, 1⟩⟩,
+    ⟨⟨139854085155550460480854276682256758354359943108601697674829155018111948064, 398071568405129242777559352317826052619951036448859155576192825995102395770, -586097885009302642247023757687828713934500723755551463957858316873422995607, -211852601750790607929426605081400945969942702688288457049898225502781460789, 94129681496225952035533393464088560068569511916382308188052915174878821755⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-588253974639716683008494297888320325954188112364357469232570314092912610, -1849018715054776478164975386455724795525960569142576112936284274132546511, 4165105094888439600958436305420558907832023179414098741520662057463207080, -121066139827253078929788032221452928194599415036564701392134003492183083, -1427998736554966994554080937506290647792521291221421948120660248911895153⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨-12587737029164572414370133300013307116088015057621214630885735905560804, -23464575791059246691414505201766733125102808041701216587727023310401821, 26910845299032112222271295772353923679912657268242043065381418489166380, 22071646524141185123520874197187315802988212595426590585699251151048032, 1829290086874859682637008273130851645347776022776118550339091040123864⟩, ⟨0, 0, 0, 1, 2, 0⟩⟩,
+    ⟨⟨-19396144870411547761987035034966795941767830558800261395417407777099003020, -25491189323273892403043103608049686409738242440861799642927595637825478952, 126174721839921190416649513614682189697786609377857305088195851008100199371, -34895392276716584369904973435458846453055166632853898708903797611522060301, -54626799017042686030153686794073625033617649466145940869537561114089671183⟩, ⟨0, 0, 0, 1, 1, 1⟩⟩,
+    ⟨⟨11695667587113274284675632117330152139308185759751261736921103485302916381486, 41304655422528368841357096986436803847131215929286578912992774052929626465396, -11819625592735583667004596704856024564153638478559213269322611557503222604129, -50810027734346591589970198942161272087130085201052142087213023358847528353512, -18285336845071546986485808733200046788597773768279982027377972872425176224332⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨-87078169097172851689339679873354300771251184317705865191127026865597519, -273400053796539214597704433289340493500589782202124818751640039274826223, 319623585502899174843184159615889853886363195326518689019945639864326986, 182689589205782728538954263621641100770269631916885252318750083994348190, -23736236366567720069238720842298271840655605218155825311814550916990380⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨-1112542667009415263290884546150410972190157374310810573450184837133222954136, -3547886646257100972010262636921444423869042194161732166684292579152481998954, 2279775843682625717614584399676084568545754392668319365811365057989900281011, 3627615595142838061883679467918037136682460048339433093718769459205407600841, 851279176906772675253172705262483976607374263220873381492356457443087387267⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨-1034676754683719527606538521544396464457895763891541871964903134498886226178428, -3714461989753921766998465582294096881597265068087164089114049617612541733478485, 900633743675482038970625286143790173656410119554172238184602663527468687695974, 4660027140519646309278667182896436305412003507215679704256710823770655517106393, 1734478026719442198901485341027023391642968903420881605238986019056397611547313⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨-987181747753961982597881405606270178948056486609655205990645335619609015361286, -3522434815685261457385080016846411093672101082627612605921710110016451836204993, 897566506731829529494620447898982695116687803496605119259126344325937282781459, 4397549962761929337264144608963369202201812004889276920462081986763296830339855, 1622203584581278074855382612788664948645459578698241645879811541151481502571891⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D7 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨77544094003848575687314403792111635902106937242441516600821544137824628, 868383647260393877787617661112328289021426543947289652872919846213043218, 517751848722858643548802949676587436889963075139610835633735897336408264, -1361954517514742189596168053779551214946065091773990663299920320906891486, -738756756062784621986233022211916064915383906276989013576879693127586204⟩, ⟨0, 1, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-8685291216247946579596688411990648542683723947021844058136925977600575128, -24216488123628590332790722267126276946211563859371510169461041204989081233, 14488104299413547430053365267730324122947103650169639230800753688416840088, 25692137499712409945655916090709678425143266690095860774556686932058305863, 6549559876885718147246656990544907241213667040135068819677540859491251144⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-37965258888401885437563147917034280413584566211860465964925959889099100, 113496667263362192007181461310195606694994237064981349213922336336684028, -32815739403625948570805018138861783024986912459603634615691481662020222, -71619983754565183506837450949811278740081078318073611944126336363166472, -9609256691797993508864618012883169499678290069832633179378883559469018⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨-209046756155959265402692820808812836202436798420978678617457158206380805, 1381407431863986717716456372152800525063033670746946703086730443796901303, -253814679495617333830025568383135069295337172784068213212030704630361407, -845219679608875808596135254955230620763430532579088175743243693878710247, -160723611074443597730578389852768283302971619402366216762136684475600709⟩, ⟨0, 0, 1, 1, 0, 1⟩⟩,
+    ⟨⟨-321405545162706625643737089172126949281820487149605784276748785377635484, -562512271335741474270478831311878146781330583485659391853430224989340792, 402212525608609222743808675547425367122149668847204539924940626898251334, 1203782387145344650727939910367629458573106324893511467577254932053240494, 466906609097043148236774274095763991217046457566458045067538044396317504⟩, ⟨0, 0, 1, 0, 1, 1⟩⟩,
+    ⟨⟨-5724966687293873803671588641880337097977533362506022930242588519826001127528, -20450009625887989044862145022310387145496454940382572429964427306583830988281, 4943052636407905481462714034851169482538371311220077372666649994186834418882, 25701389440954763826467608041852818213164744653396106626946266493573161004230, 9578776318292392694885413514560667442535105500758629976597746777319714700360⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-7226994871657893814843024977319725597783291954460071786347130470253790, 6504295384492104433358722479587753038004962759014064607712417423228411, 5058896410160525670390117484123807918448304368122050250442991329177653, -2064855677616541089955149993519921599366654844131449081813465848643940, -1445398974331578762968604995463945119556658390892014357269426094050758⟩, ⟨0, 0, 0, 2, 1, 0⟩⟩,
+    ⟨⟨3354936661673503449625809157682833812615278694819892670777575298147315685, 12763823774793318568012805665487418143600117347578641109411800141111031424, -19420034911239095897395618958494106964450381040800461855422126729560253936, -1358327559706817946627363968796988469556625562721680495855499118858167691, 6130917997048850631029428382280943616389816050867985808170006336621532574⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨46911618271078785734792421616150473089257244453021613914110987403057633, 30174675650552858125715148788349744769748539918083039650189543712424343, -124307826336280743542648794021585370791816790502727198938291229654366434, -4494137137892212524509486295749701787719410868268423815294797774898186, 31550357828879717846328135667445119819306866914224471791099901799171667⟩, ⟨0, 0, 0, 1, 2, 0⟩⟩,
+    ⟨⟨30947680597972541682995375878344811631614810738901758431656628383100316, 27096643353108610275281753713721266804065684605335281341860557850761524232, 31231036110954697416762594268997864493740379933143126612374051194863291054, -50592694610207644008909989290478042690957546304385903974595896362183683615, -30996669996596435236516315807490320722896956023442919038888788005618203433⟩, ⟨0, 0, 0, 1, 1, 1⟩⟩,
+    ⟨⟨32256133980947867332597158866534555599336268876363241511454571115858904958381, 116608927790134665278664847230460160076165927391552535357352084743252778720918, -31817623773055551727305871095547727197111830072477120898333293104199158322466, -144698212890170689547371207221394533669450553952643715452416754401221420806874, -52641091296746784447578637046238339882007417857437357605076765150299668343771⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨500740551482388004753938363422767953090362109852994492304076940523976946, 1108978240389289760518599631130432777584881986845254028418878143319004805, -2361116920180954298618556922805730719891059021950082863969317486393097473, -193448956275363954406543855891687702885805130888973072159342457780692980, 659776981058573065549911174604933320870398733547021185798113691757468505⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨-417305189613589000481500647857665847114473498698826036443550726309527549978, -913494143535305112257337398194173004708359758916719504487531258064267154807, 2015028402558413928877565862355293642932069483822824903590082272292590531606, 57275728326775801748246339740244996758053511771942174704260513021235503341, -615906727460325841243108651264637905582907505036422301539243851593935929650⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨-47807166364768228504498015616747363112928175000652482434714645337776719371074, -170568031437518498386507833905646242185223616066396512876986944385666123624284, 44349494878932655184938264245761353886576779232702528303889468187404680543908, 211801339263910440377244752419945010089845152720684874421796440458881312015221, 77719090689656678930233372419970970341136298563487570816309033743432039158220⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨1873345110259820274520680324978430015653124995766671570316230621654368574407927, 6741027260045302290569447098399711066451540499661788359850525926788059130245591, -1609594207560091507361549055975416853920842891417983311300549038789758111699498, -8469074018392129602166872688805677581037442231088806856741560667260557173730975, -3160462995597694887566158673397042122585526146480644668805282689691573324497539⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D8 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-73815369875387930642953069852267028895542478956677836670814120288249549, -135133982261756798074124162220012274638226996431751562103948333666826663, 337830841630950865591809841855932015264720985238509515360471424782903965, 5156987026618733398639670078454939822594748745764959546016894557446997, -103153443380771047893191802684109325151446241615920643334452860425793222⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨438363212834394758435035155255737838890905627594106446342397997756426714632, 855795465804221829856853611232595691742735924330116739936826490492973830338, -2438002052241939033615380742869645039833290719226610187926033264988528789370, 222714453714929875063977896630376916769148819047941595202422043232402671190, 867062615709759972191105519107219821083044577146923165325402732878745242620⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨183335321257072902743494645925279423910621630445409933121624689770702921244532, 657114623067740685025307887241653045642807925363536765109298930125972759482583, -164082299421002163908004039522816730564676751566694252028769736082525049481800, -821507555409802032609116750749568000962603208603917568753198918160566953764073, -304073534676120981978752281709333070593203938064724094721792311070052706000497⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨-410657221218377209276185357676337533485486918217840909196524084692606767370790, -1479488500609715978092618507194764253115659251317374810201343344754854917800672, 324083024425973058682309770560229712514395402124739208578078379556123054737945, 1879287462581724084751646505008756533795019805304617247553054673821031378056149, 712255523908868920670645278273946159082475846716960087135795809719418658571931⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D9 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨583203668475010410589289038718653112071532903730279454128635343959482, 279965106732388227437793556189230562998952705419041796071111567274828, -145208633916041919896564903108021639646412759084012634698148900197165, -950291362125810089019526786151334843844639172758051652705692126437704, -460362084947703757100534488504961104564806625662139150839697592531301⟩, ⟨0, 1, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-3381030479175256642913356198353337463121603567571496271224207292224580, 2845599413420228007585150971162382696976185642915716930056436061207858, 4324870191744767718564404284616353569397220303709860859248087472442775, 3523450382900969043888700126074035199163514233365098629306968376333430, 738453489991589576063852093308597164447478953158432811618813074743418⟩, ⟨0, 1, 0, 0, 1, 1⟩⟩,
+    ⟨⟨1438977129834351465972669779428818380926133755710673646408314426234549223, 3198896294721303350170259994078422882236354632662093635578288554879998598, -5765668918480917466158665404330824578480210550019622583492638043039658544, -1248515209818642715012231490219004406033176355207957329641539823337880691, 1263108267728391366836842637448390800780415417530478457746886355464464870⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-321364356780112226555766259799256585898252028883523017207312133535540, 94881680393195356599836105019010390401083649162466111688882596663293, 2470737290004115835253622622495926469927601523605588302975572315340515, -98081192770746333357423865073909512964781535348253604538984878247691, -535361210510203505123196860056836459805178208251277869229417428221354⟩, ⟨0, 0, 1, 0, 2, 0⟩⟩,
+    ⟨⟨-69475337837273379935638252402114111480264722621527048252227116584722279, -169302227945151398319379816603944898013835582105835056010350737905583589, 49995715751612999206428303785097055325750968944337438065343289099022184, 219588669983676434785638022323270635067224921137765621881869655270735052, 82236116926506918731748971476089266610007704027294045448385263825706672⟩, ⟨0, 0, 1, 0, 1, 1⟩⟩,
+    ⟨⟨539784046609064216286658446351833685026912224882475734501311688660053135, 1385269649834991188080044568274757027365301710040461365304189888635446906, -294252664681549599636651894917216538397994909586953332340781637113020353, -2678910564469480678365492385325609070605870484056130637757377068666678760, -1068784124460305954875253206030808914881686474287813855097268697105436903⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨2704168298018845708621470655306355622958234509012033809817865799146395, 7785983806479086166522126399073306080898405212539043438362798017365705, -4867235258873990376372633025354812240195983302087700978298596099432488, -8472125113821692617627069915470947287846886811617469879346245663014557, -2185916302039864032660035307175586432579082756091756103012915272339973⟩, ⟨0, 0, 0, 0, 3, 0⟩⟩,
+    ⟨⟨-13144692511516004508348696094987950267211179939448691507299432367188661812, -42753014498095176449120153826525069171872532211238931414038424500932298010, 23237601136798919394448148366724852185007631265024837581041505209368267296, 46302044941794369076814183276110243048856252589799517484475498129354932540, 12744522016108071148007475074969755333881252001805992678752970613812383751⟩, ⟨0, 0, 0, 0, 2, 1⟩⟩,
+    ⟨⟨1125031439188157458360956012379135606516696063705751792618940450645765955564, 2825068720199479867993732848120603619573838629275746583346698261261089970311, -4434367731243797652755718779051564696378431253404275598525461155684240333566, -1353280421958658309822541745362444783644517986124970851619210439236898567118, 815805228434632074038456142001241645058661055749399619171368005355207124004⟩, ⟨0, 0, 0, 0, 1, 2⟩⟩,
+    ⟨⟨-77582949610340335981485585057190956161993783935355990321952587149546451507328, -269235390603735544018748756047909554925800506939495841603758707379767046567992, 94840742808969036876929502278124871450321441430611287336544139639817741997611, 321051051727740148923469714352824649192208986765413528072666097829027858360399, 109170361982303075007649232066192994571099850207429247530410010195383826556583⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D10 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-100778473699675606597927069973263916555590208851475801556165472553547354, -527580563667683354683786232350996603903613190877095181902606999060073520, -28892287656062168382053465011030600216657171018602663057366082361392276, 443707613728390665757023647332401698334269180939639644069659903151727860, 168107668514909612398176633577793771407510049022384405879171846888561952⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨1950272998931012073631255459603669326369941723548855476127062268311763023, 2866186917487889435612190479988142701740866753660223056557296794336639274, -4691064053226985107444075875459510063810647841832971297843247633144768892, -817803880151876106488492651537902488792247169865098877654245978173565763, 1162885048035013067492114939973796867495645610372857405371676356785078723⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨10123437897926721841302701898815721865883955734536795542925913252303758, -736262765457359445048002408336139164806666770384407674458317787403924, -15426335504297439548331017389682938655594769611850018129578794363572274, 6404211934183595807170766975491224260337297400324319762172994411632176, 7539607642443975676181273892785220575693130085914943390714358912486256⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨-265077031388380972577124054842559937824906047272374297035068015255804224, -1268220020770299832040634341589833013998955411678368537968392306168560228, -237581451923729337581071054087847052165180597371837101287201547517968184, 999833252678096539757113374180637655101351583621175929578085528786345788, 424903505450758398404452144350636379616500096126934015245504926478706134⟩, ⟨0, 0, 1, 1, 0, 1⟩⟩,
+    ⟨⟨-468653878020627924407346453944900902934422448404932077525937907935177642915, -1928975923919634044279717289365388291629986250646111474181806350206936076287, 413555518045012642403043354655950920294723950136905878812646175543991894930, 2454436760736536359980070349962196156708291376001036017347778285189090756280, 928324397444857377934561826262348094745662921144980780170568029687320783312⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-801433690060264636120966465627905175093499067051084264089980474449029118, -2325397432256966846479138950946791755668767847907565982989722448124787866, -205207952849083760887983296165238045848794902539914818400292441123084246, 1923988788214473795059213248507410809288847287810607704777605140010494146, 790496522366298199355415056570712615607015334299135416373641188333423230⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨249345143274486052284809731877653730712206772810504996966435746768799339704, 2174703433619396592700793178040866579264958088358339655604045312053498328482, -207068420742835976039424264517708128146470676495020941933482910436519247907, -1422324172125252408090504063123591521461726755757750146224363283875878093043, -395591553655675540064426173746313276803962542278102571433870797958536335507⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨-392979315526029961567949058170996746916513662066351967447967561662918589990218, -1424309287034718326063069640987425288720315402412995033144963148045435182710866, 336692947759649895124291264100444049561921558460826722226008705355751806856134, 1785884768800438039584433364984455358404319761854943160221621544994120816838628, 666628597340178247898461389446629726142600428993223333466381147926859758565946⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D11 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨26915635581709746891158692898121175480386431595517940135474965511162144, 50850622791742341151751108368297187471120712759363410792240257378238268, -234638306731206276695898132401750952661492847497682309360211826465754, -36510385158568293165275714197486034770447277339815543983905647877901134, -13832694585092837113466136199413736511250903760616087146126959832564814⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-718489095279800379228055853142049813565303997233736147293372461785830164, -3914075935061020100938333738018301764423029722724785505589635380605811184, 6729077963149255649296493730320674232062900951097820696483134431809690663, 599286358066420249157155196456147873511453381334463237752939669129929921, -2006783554718415715758666243016392134453531255720017774159043595705438601⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-392919491885090900616416907709970208700444014133586153412747213424393814, -1042415986431021303262767928697435609899426529375082196154900681481030636, -304685948662379554416003678975742386696465281174754423081294608087880618, 974787531230744058177206278727898106362804140788181848873543403562965812, 479536989791150190986520415566967256765150576184807330220819460070829756⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨478331954278944809535816748655807650442989074608938177248497388082262396131, 809985828500274302606871807185821774097467996892559574210299890258038515754, -849392675272103131373809141088148379311228364593909745049574981861699237915, -568340736451207020189475732509425198511621464885949418637222364164849203842, 13531208596037006342483525856018569605564786211367232069426536441503227880⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨-5264545203478484762160557888769178245772576780731889082480450892664544187208, -29807340656486922972484975055584531868500478001294070899581077224756096686995, -31520959437316068185291130010475714280697128707734319966524327856431474279205, 59637809337082901541845959845415260722745466439467941373549371801835465547207, 35816394356293294827626320165414248096481089268802838319742173543873116433378⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D12 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-5762914235560691067946567183329175961607313726200069120924456790214314, -12560209883527194154489756396023139035366030496170172067241109996850760, 4515634159315315167146433513802147566365243389656005585837647684408296, 5177380198031433682807608730155109300871435320510715218275323014371722, 90701546731931287103773925517236286543355097732219086562601770664964⟩, ⟨0, 1, 0, 1, 0, 1⟩⟩,
+    ⟨⟨269207167376125812088028282768937115557374389308881637561811763015431031, -27824730575973822824405563034756051458608137457498212588510897769888895, -463321244870711669611525619486701096498033091037856813093410160978950154, 78393447421999344985338710125497875379939557298422221637137917488135600, 141757037290077906107369016808404197663068729477490531762060276973597876⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨180417355616612689436781363569189095224724548867149873873749938389524250, -183692175236671382386646564083214013046499613101144042054355336770527886, -412158619364017509996489968879944682243203149537390346235840096303247798, 220783550523582738604862983529456787063622797765071476549326886851902556, 203490432722357144019591259095466541636274566615750552564404083116944460⟩, ⟨0, 0, 0, 2, 0, 1⟩⟩,
+    ⟨⟨-38557443873425277048209559912286193749298998627062596557833949215143021610, -117222675672881206383634168507833080993881503440335642207213579015233326319, 216759284320320818991556924775065523834311764288790374819415468298315041868, 20804895417635108420780174374635459163173426172713309994550457412362375976, -62036042415607979557174844606562966658208242816020663345763901912829574336⟩, ⟨0, 0, 0, 1, 0, 2⟩⟩,
+    ⟨⟨8312852206577913659555071760530066781813970728739969148484680070576080895689, 41593518865368221510458291893314009071972747397011119325920015809355955702984, 33183980767489106966745629419128196346603476140065396204335887558218717418242, -75930122553727626138620823988396942678642929109844410303059585781705543915205, -43305899745103430351675240722164283971005411581302900874309120627919933014199⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D13 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨5892834731008196089591590883558388329206641917207418229102068685245456, 7869057582186994852620075986634732514514611310240825385120197790020198, 302948499861451520200885142127113755846213205149510845359678998602726, -3380256165550748564816727306475748869490865864937531128844348586232114, -1216385934525127898873213256610396779701594620413751245182795209083320⟩, ⟨0, 1, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-199285963378045963700940244443419542213942503425227001223128863946973393, -957236493262253402464525944381336775680383994057716803720086547706314778, 445255504533159043010981349083845547818971691583659809033191444969057248, 150189668716687404914124771376520238809082039731085835833309708789318752, -161751731286827234408803549975599650885855228420488820582282405593829023⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-4026239523960411313545589410308178088552358617269014191131910843491954, -60168541317526533115203350798452211933732946093900367313562846596808186, -31326516325930205715170728497134594406035692805835837050864615637005164, 30467752547651915493133866130277702402593746820304815201823516671219326, 16107397049263255571530392007141124655615659343222211494730767077884268⟩, ⟨0, 0, 2, 0, 0, 1⟩⟩,
+    ⟨⟨-36788703312403011585657344669283159550410643732097040110485090019297002, -1643449251888805638488211317571916384890424988769049164498325252776514384, -554690147722897606410438153765431256418007457457184522081498494319892916, 2933719211068640321222371271421430963281935900832131550419060882310158234, 1441605446688367308142492519465538802670762242555385221078566429535245394⟩, ⟨0, 0, 1, 0, 0, 2⟩⟩,
+    ⟨⟨-13464939439444926513450699154346071151659722198177530001470607716503182205147, -48568695706136416280941390075283525087687488077406726257046915749831591108220, 11597986733332688691096653177958044328705099174817703672282607407367798125959, 59821845555573858222938794242273405773856527181517263910161516743369672422408, 22136865099750937826822424442262325813488528965958425793451744784758723866649⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D14 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨28604722329698533694242573702898380023758901841777119321684928146673556, 139400188955149228630176259308644160098116159065525737254876713677284268, 86007432304167044530164911829708176376390587750959003056146547614268737, -40906619564742078689915913973304160449972533248255080878850368799220653, -32132633621266793209831313000228556383699922474322119171276951623178925⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨-2567674004642975973223131379337784985405737053881935335814648690018960787895, -10812157788595528150067490318581092447207556122800875943131289634724904487906, 532420723309810374591198780696213073119302199433396649716529194205963107174, 15009686861421556330746193976072633563681520700589865341097509151101079205994, 6337814596077169309182385680754478212839449462145597906608804562951836349792⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D15 : RationalSparsePolynomial :=
+  ⟨237466438359064045419709157, by decide, [
+    ⟨⟨-2170089593120171540425339578, -3541845353298752768500927112, 1088623782048905044500380999, 1058937747031784033905371606, -100369146992108048334431778⟩, ⟨0, 1, 0, 0, 0, 2⟩⟩,
+    ⟨⟨863081397929856365305092251653, -5566351575742679288569205786735, 974266452805408779443156519235, 4124028828617879876434442769714, 1036230168797649432751341935257⟩, ⟨0, 0, 0, 0, 0, 3⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D16 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨13628047472269171193703989957231482555819921971267563939968874601050004, 19306400585714659191080652439411266954078222792629048914955905684820839, -54512189889076684774815959828925930223279687885070255759875498404200016, 0, 15899388717647366392654654950103396315123242299812157929963687034558338⟩, ⟨0, 0, 1, 1, 0, 0⟩⟩,
+    ⟨⟨137411934380811368089928499702847903233919385123362959212878041530884346, 392848262143162639770781086773085356748634936539923561899100953373966478, -732073516278723155976650505041310519517858027333148191095919212678697378, -90193365073884608755560039810083509769118543227227460946907632693940499, 197298894574726720647043653848071468865230024386867119988983534577273514⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨-228588735773465726020969929135014982230098221729485639223664356717799844222, -589560286492804843725861994220603831720245111267619956942095653706599387842, 740198136401806555225781649817951342339509287471593662843195376083814322436, 407291247803036332598045877378113018935163799871050982245639988097196519439, -55273031583399260583350217512886976745941226247322685168535412031323522492⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨21577741831092854390031317432283180713381543121173642904950718118329173, -39748471794118415981636637375258490787808105749530394824909217586395845, 3407011868067292798425997489307870638954980492816890984992218650262501, 15899388717647366392654654950103396315123242299812157929963687034558338, 0⟩, ⟨0, 0, 0, 2, 0, 0⟩⟩,
+    ⟨⟨-196976469011457194942630961973365253987895216595398577638719709507214607, -280217466605228161848996578277092430430502558866335880493514982391916840, 685860822243432581034258072022431048322336294954917681600956960769863196, 69738318294160984497260421344504795184179012442784638224321583405517248, -175226553851308469317590745832811704186902146300156155009596781021618633⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-55625722725774470123027397261684692299707244273056851067017166577259422338, -375265380521967875908255468753811023601807138981054944678437026984412884833, -221742899483437852842671866266756141204043518889545194011407254189437493601, 629651982670294925332701987435137107640760178263479085590212563834421426354, 339354118271656285517163750752366646208086003628408132768275597427938475641⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-2999710244977134620322793351402370841311673410911471750814901119012450791, -6378223928684343414697743856976187446831940980057124040769841195218613796, 14028202781000368331799140658941749137394799973565671520347295094008955687, 919677460575151161356808037851814266658818202115763650470709350187269391, -4012294850049448537369578213183444980109710896813038559351805817479700004⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨856036242908059962518519751322464446515613923558017673628808497705733277019, 1239718420379825822465788213177191954689807816255182459820441251400578844141, -5916340578059194528882386108767528119156382292609916339965024735563647312935, 1681083594090479810535147716971251199315507013526662518234277514586943515029, 2595150937581420864926781380781550633667358092912779700269549858737329743727⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨2071358405351691914009786213138894039775654026354991941392952362048572448777636, 7442262339785251915391577597856424483829677487454965127500405235013784029723448, -1786055086083379153762975351655148619214934320476903390162876552833917539365367, -9348396302360322230748543682103565449255665487235272258736341046431657866322665, -3486117894535930106555312983175743479913418796919964937707194075407569017022649⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D17 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨3958521207644528599841147397980521250400992898253404879247571906263808595, 8853982309746213453271050250360052303494283776915539788936697846998582000, -18135713907523753418264775249159238380234272715492624453538747577091157691, -1946938080557168687531295248754043858527902272347833130059060891052777916, 4869387945624181405187296383426297259153857981795615531594467063829042607⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-786929670886715205276378753203823614510249508420771103170933412311257879910, -607611103003799352889881826386032437312989201707718559080015534813540275742, 6841379687282730804861389836495444822330443627316133631864375445005418470294, -3075577055890581063129645986211684641889839338819600356554856635101987094631, -3488130766956591536759842842158870032854350399514141275915868152827405825020⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨2617157629176126685668546021277077582950340198868656472177192487356322125187506, 9430387643731570803752714078971112386036999365071125453658740993435008363958979, -2224467122738062405362190562775772676001787490136690287068299812499892787390576, -11862391524453052079568140497311371217183722060716210593222506426662586290456406, -4436040309279569268041307036731345531273201727417925670372460076886731276880060⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D18 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨43979252108776687472561617023133435738920411675708988699842508690025375603, 93546160162900928264244074384953985040273993598440827712860742388538600182, -193497619316625753430289847330609132644638158372570942270614240417422649806, -20552452546363356854597285447888017577031152757124116943193318264013793450, 51849691944654004433847457283622465677731476665716302709756756508310007227⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-20039195901220186566512590133370935617539872565918861684429916410745745526, -49832422884214929119498235160895289251005748995347770298968440175412108292, 129703737775112652167903596632381037356272069364009258227760263078003641571, -11037269918239458939593478010057600305870785907655135788528489327864472859, -46594085548670751770715338772116537896900711714919842753721305020965867495⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-378959955676718113961828283625153456035388994357086994160289612483862510339258, -1361841995370029071334401149731180184425897542010766149267299463764000109738370, 355571887072591641127863860566114157692092403586500845106728265795562875493294, 1690949892374443222384137515779622758194756133537903463733627513820160436898444, 619844022642875366851781252806098974875642827023685314697239431297347064741287⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D19 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-103107589589303465765504873412088132242753991902830794623306805185839362524639, -382420099933414828720588169456350279907804739093983996371379993409672028596544, 47933263029602004189835308513760249404521449318801103597836161115192428586396, 504775740137730548554037195169701555536976199632051080400166546071462303347118, 203513568653379595280616318641739294746092733981627259507181773224723967732313⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D20 : RationalSparsePolynomial :=
+  ⟨9070824594820477088157976146252830090623293624471046863393979, by decide, [
+    ⟨⟨-6327953972776542245778104119245850523683540884728736445973235638, -36414376249013658256902574996773297727838961144854421804306155444, -6118055131093786118987176050190014988893219572289655773410778108, 31857171756186214593598453516116538265451794922661702989498953500, 13631765194020540965052097622738113881002288560960659305459041452⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨25599608845391808711260759776202053972316640823103956629239081473821, 96011045525650126182940679333663767988702133744318230131759714161929, -13293654209840273461115285831767610344510338165268790800945105679834, -113011528917669917240394017329908362992057022370980674632221812367847, -43582619215523257604114673949024918587128708268236008934178319220362⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D21 : RationalSparsePolynomial :=
+  ⟨9070824594820477088157976146252830090623293624471046863393979, by decide, [
+    ⟨⟨-3903028475405979762785837977543120509712850253377583438084353010, -19288650134656653344562066370248682727119372704418496608135125452, -5183676042925493175560130124433100778077202061818279468345116568, 15281691467147419113217953096802192929793204814540087665919980624, 7117872632247047772534248936424616196644446594375888392483720122⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨2249740769730429370535021135009814281825230143839574073235872923821, 15738396849510740857342939427013338992001094607013309786090958165514, 37823482745133743542539231760532195575711017346054705152708334340789, -40385185425653874065033866087387885357538537470011774195083776264675, -29255069404928140346058175205052372775740127575559735922875967886556⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D22 : RationalSparsePolynomial :=
+  ⟨393942245820867202302840286530915312535909, by decide, [
+    ⟨⟨40129550807726715010943241457509281461881224, 119634873165328572793915338164081175274670874, 17449874562066262216994722579887342137490792, -83458844761988694057782374325695240253348644, -34282839319313582995067049804610212882706460⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-103623343229434650110382016653491581493884372672, -355342305525980263959886762917538758653650783374, 53330066014931557028434698794375126282559762180, 373572467097719553665278600919412367507611212570, 137500373492226621943044761407942827529894052820⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D23 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-61684420584961971058716840420864271174129431522658994977746455914848005, -51879033014584759401936311172957964203767915438241787666813813366339632, 140214614617826450011299792858227606054808713777251325811025075475989434, 32562841571205229987674459280021289123010570703479964611390939524366844, -23618482028204622176879305892297960563333735958927190102310877374545656⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨-158589455609189102000760397198523666182367411416510751449697587359415185133, -631616485749570249861395208756623030531147726609398487230283294167745229300, 70941246104865737674963763013584554845801939033772394540592783586028643366, 823698302493324218698531195548296387642444797361343133313065829371299460106, 332128271361405653576432528050518972660964326043756958887633693722439142449⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D24 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨-654656842291939769829212771331018708689607428307995661859720030052082667, -1316113892547930056169853986540660795299824335085409694289991690693946245, 3521183267489915085815218054769192931297214953617358512577818121098036917, -195927818318508951001209687123503208972396152569457064817020527423015355, -1194188080507075329912258424024154073419433232394869720383996971188477738⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨2943623749673841319637034644398221154981487569474572286947526037068909556879, 9587660886325417174017799679903557584452517950118386942000517601487985112582, -5337005444378480909577026971327716768751703471596035001214594701124332167508, -10284555802062277030163286469051991846191698786250400767890389583542907762357, -2770407988558992109622167160142748040253158074097838457474273511840610141477⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D25 : RationalSparsePolynomial :=
+  ⟨1135670622689097599475332496435956879651660164272296994997406216754167, by decide, [
+    ⟨⟨593193982324120933781439713075939761910589659598820847218546794644085796, 818090596311019166223472307671153413142378810298451052777397575742726254, -4315886240354783028211062559588228686548732505946975811604089426732538179, 1354538477302694147779191293112055224495429950295479089353368347715937723, 1950090699909946346488226329513251096824344300406447392809507817392969329⟩, ⟨0, 0, 0, 0, 1, 0⟩⟩,
+    ⟨⟨-9518254435351084873910358044548987063511414056315552297293781937020775690030, -32831886616539536629337979380965563607560901276044095735276007632720966328471, 12074795109139134262247106049220461158481929514439806595442156933690192514889, 38818581321777691292738534639367976746515673981088810557470875104408620173966, 13005515162827486277297205929489058268597683503768799983974266955410600949756⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D26 : RationalSparsePolynomial :=
+  ⟨241795212832041601597183, by decide, [
+    ⟨⟨-144656418402387910184018106, -434438944784677292003484774, 133896685757579949485450756, 554539753327613260722673736, 201433544263021042394948814⟩, ⟨0, 0, 0, 0, 0, 1⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D27 : RationalSparsePolynomial :=
+  ⟨217568060398138345127, by decide, [
+    ⟨⟨57639658581852519269, 153435624538431200268, -168438791626691033804, -217135049298074100419, -49855772576956431996⟩, ⟨0, 0, 0, 0, 0, 0⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17D : Fin 27 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_17D1, homogeneousCompletion5Pair12_17D2, homogeneousCompletion5Pair12_17D3, homogeneousCompletion5Pair12_17D4, homogeneousCompletion5Pair12_17D5, homogeneousCompletion5Pair12_17D6, homogeneousCompletion5Pair12_17D7, homogeneousCompletion5Pair12_17D8, homogeneousCompletion5Pair12_17D9, homogeneousCompletion5Pair12_17D10, homogeneousCompletion5Pair12_17D11, homogeneousCompletion5Pair12_17D12, homogeneousCompletion5Pair12_17D13, homogeneousCompletion5Pair12_17D14, homogeneousCompletion5Pair12_17D15, homogeneousCompletion5Pair12_17D16, homogeneousCompletion5Pair12_17D17, homogeneousCompletion5Pair12_17D18, homogeneousCompletion5Pair12_17D19, homogeneousCompletion5Pair12_17D20, homogeneousCompletion5Pair12_17D21, homogeneousCompletion5Pair12_17D22, homogeneousCompletion5Pair12_17D23, homogeneousCompletion5Pair12_17D24, homogeneousCompletion5Pair12_17D25, homogeneousCompletion5Pair12_17D26, homogeneousCompletion5Pair12_17D27]
+
+def homogeneousCompletion5Pair12_17W1 : RationalSparsePolynomial :=
+  ⟨2180709718713561461797777875307172161612277736009210465202913489537673636937729733, by decide, [
+    ⟨⟨-728048751108458564805298965930368993194022418830934032829432720356451466299360170, 500907786584210903223410865777715820336368181054509346180844330832380093776949422, 967792379892492427478547012557144696676226274196494271755835329762640063353888587, -247632279936544008020460796390209337302941461755868437479873026846119614188001151, -262278526915093630166833819251605063782392834951323654530006238111852975252100053⟩, ⟨0, 2, 0, 0, 0, 0⟩⟩,
+    ⟨⟨468238192153718602312679003384238317159194961785415920040587051398195994776400726, -233924376633564582193654521847370504877518039273421511642251336639086958240029060, -618866992667390530021313758499641810948844462953939787948678078118609844402749368, 95398919195614061089687152812971660494041494153146920829778422196902153659053136, 132869943290724041920384884977802099938410554677063300993685653646235870223511444⟩, ⟨0, 1, 1, 0, 0, 0⟩⟩,
+    ⟨⟨13410672144357281036772837595303354990081392475792216655175338237892441228681524, 2395846014610286938909635369838606562383049587502267273696059731016654359740892032, -1782747665607770685872947750844647497771904849267784526048186266573596056040180863, -1391983195873187566512649253306671246135523148062267562181927917203779169590238433, 108885724902854516712329577172406905710980642384392089933822461232459352849225649⟩, ⟨0, 1, 0, 1, 0, 0⟩⟩,
+    ⟨⟨-267106179805138061005627610202476125605280882077817649120193207952239375031072036, 110246754547589508139562468608709037998233548571252451602899030138483590357582659, 335205367496727537868524240980416562404539346472200619836865960543409503253776556, 18488897187912446163510677570464884541797235539710164291455402136891173260230537, -34764578534667423452792337931135180149693499542171458092754078476929299252435411⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨44026822583879104829033379995338856126414716754114917742222541555273344137562307731, -2262465242195802481541042280318822061844345679641168070719228585948135764040728515, -72858911541321519075856954890304739940868149900343040328591491950155409649672038216, 5140896522612788745401860572429761274270922004311544221790858508836135844512495963, 18861903244694754631468297600764903327621689672410523398006245369737488799352253146⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨-257651671971047004719916966538803173928980519959145752937060711872601976921441992, -1489774547323322705912645123029839685096919149959501918599444072472731663926596144, 1279187681553101712366225142501345553692606177042589786253595712440824721893293436, 1056442912905530896872650952441094191163704079639707338326561748445872235956211580, 199976007877222594886665559722552559312843042865166423680543563256715230876228⟩, ⟨0, 0, 1, 1, 0, 0⟩⟩,
+    ⟨⟨-166538110223924574806178858101455508264543143712794541273750245624516933834861247, -308645482916667788541137233803253530050633544546089856274935581204689316409773586, 588155572649701304498004902880365367065799957851393630926490339173744974955466937, 123490474761863586364709898717274603032109700843164781646634587927235562373966491, -165646758701368573031910015453841893737630501270960229503980260105340367791783698⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨-24416079162794708502924151707097042600964369062172255233127419591104794304991317992091, -54761339449164390958745145008991882237329557539852718558273586907763433178578374742147, 115027892081176326141977620893434729727240274789312059125185523754899051374382128517323, 10175366790793282621911936942157985132299758455441655513532726711264747324463511328853, -31879496598481477133756899724345682377432517032511736943460477385009054654215085746084⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨463768232579800145918240929353041146632676662677576368059591631671519879301144750, -1213837903917869000321003053476344012969055281091273360886960826235004877309704740, -7635877839356699682739609067215186684709649040591603996588820962987161529405374148, 5985235871893926728199702329447755417342446155376808575054274065652017724414548123, 4986751597458827600238489715961994186369902591259509824132880006952368061654389257⟩, ⟨0, 0, 0, 2, 0, 0⟩⟩,
+    ⟨⟨8929462377311254915496943204037868760573416619088019005394215383049249159041750159, 36220678823271429647158786929342595099987907774720832520389145196072727963225062215, 1897091067303348522791369806284063384394437454364080517312107742660992575583862415, -51603368009425205129190143185831718845523383415492201963534907918943486503548354480, -22876992994180846542292297290628767203976278553483079896207982553827143935467567924⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨43812705253498308803209328781801637704424053958752919261140324102521408377093134163092, 115104814551350335036053090818625949701213184773529867669115139095249949297047265008983, -147792574478636027971091659440784863145350231450717886626476251968670819354989798670486, -64641982787222752261408625193831605962546716997175584832943206331297071475718908512514, 19507944635813270193809610104057814268692545580898961025917339306602285587925534803221⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-19140503204590157640617660756459266493143751175251850545592735498548757680429394272, -57324339911576355430704407581054577118648328605535143746366010094514364405749844710, 32296228983431057659408360433786803197561875662554011764992395738832227028770029038, 63359260847089357376482885666393495610551346275588450556620957642310834219836750592, 17691214429847691995559958785199479641512669430574560356798715665646681836579965314⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨7336768204669986040662574244165987664864834753914869023340779307042889293890561060876, -23658069533240540635721819334896361633620598482719516466369456206427908161959232199698, -101025390178944057209929268389181916638527021963819332918514003954885105103792745968786, 59079398504052042679730721204482697320658320711001710147238030714657653844970664227650, 54326710702619544607152652126669515070555455332667601862146959694535602950241710605790⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17W2 : RationalSparsePolynomial :=
+  ⟨2180709718713561461797777875307172161612277736009210465202913489537673636937729733, by decide, [
+    ⟨⟨469963943831312652276986186164154737871145804384930170830333649253597637208163036, 1455872475387424567537698274434431116386163710910104820676041140037105369616122512, -947957017008138284423238620832575776171994170734316629903110643229627071844211438, -1590277061702155861153043699549369069393318645610619058962622135818677881601864614, -389156398521341321251297788498770487632685831745525339915222558527433724659169280⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨49844680691417114963792014167605574091596047980766492945924406461478430546581915226, -27748708572750958815826712378394927597513133355677145424172205368349910509182160558, -55458889114931554629162791752427265134334276366918397179874031616407892884096936402, 10141712662207136229804626218033946853012664823678659094058582918131648128725778788, 12636242579432887420001803224819373088582225689358878541109429909243686997359872474⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨470097508616537372857445829026611151774906053820760878853529069572159275580157456, 2285740831108920510557891848772565750594919001804975224926935219052598888730043711, -380203436976200151727283276747896455978896962570476466881668849968636738790827077, -2769587611343045415680325175320608820793381924586566795930454550248445391921231125, -1060843912433521173229225803643666834914230587081122083862203486419930739463629137⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨365014017869695560904143071839297070135312364279253173625226425126142068488712667408, 1782357617917856440442355297428973433390421064066478147937104268647859535004992674984, -278439531990103696315871610366258158441602110516835260581470973989578284942482844606, -2209800531606637726021082984484890222372533969552177625934388614531952110203784266610, -850927087043323765347282104840012665542405273175685467270370058498748091368946116872⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨-883552824918997647411088348988357247792692145147061028728978028557810806064443599, -3246059177721272162793947235950676581094745285789583332501350508064789095947558118, -3672491513574290208107820486992471374584187012164499575472768443323846826490853910, 7109023323537013245616069640680213092403547016212950865844252290334587441008247749, 4307629735396257581960458346618370257740714211607958846107721607745492967803698633⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-5210285203314538876151451683070934905734170538248004930131471442499129030426277980, -12489146283234598489969772558312126489623238105117749784820092135945203783003879796, 15680617604426254623745332093719840007746305612174228094585281184676194483238254246, 9045966729758054908640497573217906079474451857163866912146576750561696364706489014, -927536465159600291836481858706082293265353325355152736119183263343039758602289500⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨12553268863592653089174998393497955116702665778399736872313943091992633527900016929, 43998807210818188416166721586464703488687528617771615576756349702957477232333208992, -4664883485465948667404583171148474829607993050340077882230400200078260382721000323, -59239584107212120043824581031462594769093595293373448718249620087864053835674565698, -24312151563465030397528299460526992506108892259859388448539978105920007699365042424⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨24338701960064326164181801479108945731214833265256579820957059565462198598495230133046, 71541715633593089119783770982158754705470183087212301389742704467427963397076415027161, -105757651248671996652260499026358496201407239677453553576552822762757036817253082871367, -58372255011317410769178624753546138875761263969337757974796313437642364299975680676493, 6629302529797571866691294076051984211184400470495020633885557979952061280343610568773⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-31769188527309519990685145397197635515567888783103976065103995311905442399769641508990, -30261688334383531944126856374120385562630659651120243967137289362942628666706161813848, 220296679917867716060795177327193236164202897729049379711637014517256788337182125109092, -51872954144353781961546663549042722743267658895442765975316737707031699671795063821922, -88794932638531435914272526361307345766297117658011105510273266634802795303277972216404⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17W3 : RationalSparsePolynomial :=
+  ⟨311112522322719608585049272634108792709200902237988529043370130745043833, by decide, [
+    ⟨⟨30660162489451393059585096761584367605289608174046362324000294449706448, -17185390229170021192499595966250472583773510310460418750643596815634234, -34170297814929036984597881656722037178673583320163416229083539706420010, 10496082045242350169017950927886175561870359235750439102473793623237524, 8525003493405949054177033333807252569728105182375375743798428699233056⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨-182601605666478530319996527687285066414443727211368732551512427692208858, 146440359000602092246452117647419461546293074163554808642764120057732820, 181515543821442444218267165850669185454993386701259369179005708095658200, -168334951836482806278865062623086922506058731673339607586190734677435736, -103015228111884315412521345313958289820209745584390305704875946102789792⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨152444961193709823551980390818577199681503851887484176741070139347608546, 484574089462510726339661528982671817433999152993157949902743736062655009, -56064658818426312273406709854319216630683770796136633864878025299164259, -668301893609698700616307436871960021415995142332249416134756776974559099, -279417810018400145048840898138714599394726885801297520337468429891021994⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨84941444429568017408369621506536467871527502451021670092537894378327497652, 315096506671120475192979456239712723794173410346178842826583683262513229826, -78372046546610353678213657227362960375148349171408899476404637151636247600, -400277801703687090070573664371548208041998317175960211918506395986784385702, -149081889541481834317046381147645801123371769694110190120403645943689667818⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨-13656307215200997254425204109055397870994504998255876012965564710241350, -27380520681485615340986935430531681142206169635821793828122399760011745, 26220201008365974126717309157889202126386411077439139455901792378644701, 3426169706428686315431929906424539505514768154154803164449473973374704, -10102972201955507937761335786745407623761771978571097175127113800051797⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-1465312590812825883396746538939853093645162208137548422778207381249668108681, -3223510722790020016169693342766272886654292021791119458462911647881825783130, 7133047277454808868400607359885116986375383389709135724633688153659890623201, 512293788197694834766789404796015843373084949237648209250633837384403739444, -2018014765836294424277593959470937710343188575641212127985689720756628863332⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨3504313284049020778706075473361902674735266759283644896973291667225186212096, 7698817306475474869159604501296811464627958901138152415138895591873991682996, -17057205661416843623115415625099290004265971314725860180452659087626291396740, -1027836071658535414329035693925514703230155562488866378880374366451499182366, 4928330089709719463637521869786331609958283304167299464060832438200057629498⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17W4 : RationalSparsePolynomial :=
+  ⟨1304231054993723083385009761260448536107809613, by decide, [
+    ⟨⟨321818300272205005788119973175889323570925560, -70358374700591123274427283678965150606136487, -260775241229204318840623285391180191931245480, -39877032649436788225812513669253053499649003, 16852671942208175753448177294202697366902916⟩, ⟨0, 1, 0, 0, 1, 0⟩⟩,
+    ⟨⟨523427029738179827867787061369576962691646642, -126959732429170439458384388037491867167305118, -855214974317551118678599870163049308017583178, 6750161622940255749931503055290182717100640, 182746644231893821158854581690938870029871184⟩, ⟨0, 1, 0, 0, 0, 1⟩⟩,
+    ⟨⟨-61825718456410496141380233248698863663203030, 55901312943093315477758015129810833230895208, -3712403277945922412596029657103965564915836, -22978082992236662389627924957313304605377830, 2925639507469481101770997973692693825027772⟩, ⟨0, 0, 1, 0, 1, 0⟩⟩,
+    ⟨⟨-786223809821758392647652569267289704087572588, 1390007641152911630180857532736109545323911896, 1202723670905442036318415704719567408148162538, -1280912659812984932504547988262574880396074420, -751303602762000537133200050447723644013905800⟩, ⟨0, 0, 1, 0, 0, 1⟩⟩,
+    ⟨⟨776024680658655378599803321748448310327785956, 751601677135525402537917146153300841678343669, -3016782370411742529951129083963884511044012800, 313187737201188665563898413878174652982716651, 1040125763052011275482309552065185481897699408⟩, ⟨0, 0, 0, 1, 1, 0⟩⟩,
+    ⟨⟨-3239514195232062276377385979673420562193716482, 4093391180978746307705573039832628356311194578, 1788939695644535475488832854026160618367663910, -1725065369288371028709342855585886738286500060, -630613860542803475503326672317680211189925582⟩, ⟨0, 0, 0, 1, 0, 1⟩⟩,
+    ⟨⟨77848988286525238329002576934424436916054778, -143009962790279632439086374358360913928509065, -56039317451144084253349851957550403306350354, 149160574819980511152776479609156475802930460, 68114887103107655057560395554719634204367264⟩, ⟨0, 0, 0, 0, 2, 0⟩⟩,
+    ⟨⟨-3785991890773061370214008786529731905314442055, 35236651861339027839482660152012404602934369074, -32001397456041188063074686281506067247396563360, -8813156765489320995231801857900417162687838819, 9368091514445583687999998393301845634803604610⟩, ⟨0, 0, 0, 0, 1, 1⟩⟩,
+    ⟨⟨-78160352701904577439395500467693260707124650302, -26478569739387252580862080624959223140229090250, 173057179597824078984267929964561057892616442674, -1159139274901445377240091683982754903684867882, -45679313410213109379014023580830297151885674524⟩, ⟨0, 0, 0, 0, 0, 2⟩⟩
+  ]⟩
+
+def homogeneousCompletion5Pair12_17W : Fin 4 → RationalSparsePolynomial :=
+  ![homogeneousCompletion5Pair12_17W1, homogeneousCompletion5Pair12_17W2, homogeneousCompletion5Pair12_17W3, homogeneousCompletion5Pair12_17W4]
+
+def homogeneousCompletion5Pair12_17SPTerms :=
+  [(homogeneousCompletion5Pair12_17U, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17V, homogeneousCompletion5G17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D1, homogeneousCompletion5G1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D2, homogeneousCompletion5G2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D3, homogeneousCompletion5G3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D4, homogeneousCompletion5G4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D5, homogeneousCompletion5G5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D6, homogeneousCompletion5G6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D7, homogeneousCompletion5G7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D8, homogeneousCompletion5G8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D9, homogeneousCompletion5G9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D10, homogeneousCompletion5G10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D11, homogeneousCompletion5G11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D12, homogeneousCompletion5G12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D13, homogeneousCompletion5G13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D14, homogeneousCompletion5G14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D15, homogeneousCompletion5G15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D16, homogeneousCompletion5G16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D17, homogeneousCompletion5G17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D18, homogeneousCompletion5G18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D19, homogeneousCompletion5G19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D20, homogeneousCompletion5G20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D21, homogeneousCompletion5G21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D22, homogeneousCompletion5G22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D23, homogeneousCompletion5G23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D24, homogeneousCompletion5G24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D25, homogeneousCompletion5G25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D26, homogeneousCompletion5G26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D27, homogeneousCompletion5G27)]
+
+def homogeneousCompletion5Pair12_17LastTerms :=
+  [(homogeneousCompletion5Pair12_17U, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17V, homogeneousCompletion5M5_17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D1, homogeneousCompletion5M5_1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D2, homogeneousCompletion5M5_2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D3, homogeneousCompletion5M5_3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D4, homogeneousCompletion5M5_4),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D5, homogeneousCompletion5M5_5),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D6, homogeneousCompletion5M5_6),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D7, homogeneousCompletion5M5_7),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D8, homogeneousCompletion5M5_8),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D9, homogeneousCompletion5M5_9),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D10, homogeneousCompletion5M5_10),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D11, homogeneousCompletion5M5_11),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D12, homogeneousCompletion5M5_12),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D13, homogeneousCompletion5M5_13),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D14, homogeneousCompletion5M5_14),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D15, homogeneousCompletion5M5_15),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D16, homogeneousCompletion5M5_16),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D17, homogeneousCompletion5M5_17),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D18, homogeneousCompletion5M5_18),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D19, homogeneousCompletion5M5_19),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D20, homogeneousCompletion5M5_20),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D21, homogeneousCompletion5M5_21),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D22, homogeneousCompletion5M5_22),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D23, homogeneousCompletion5M5_23),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D24, homogeneousCompletion5M5_24),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D25, homogeneousCompletion5M5_25),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D26, homogeneousCompletion5M5_26),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17D27, homogeneousCompletion5M5_27),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17W1, homogeneousCompletion5Original1),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17W2, homogeneousCompletion5Original2),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17W3, homogeneousCompletion5Original3),
+    (rationalSparseNeg homogeneousCompletion5Pair12_17W4, homogeneousCompletion5Original4)]
+
+end Biunimodular.F11
