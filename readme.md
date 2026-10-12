@@ -43,6 +43,8 @@ AI coding agents assisted the development of this formalization and its
 certificates. AI output is not itself evidence of correctness; formal claims
 rely on Lean verification, including the native execution trust boundary.
 
+Please cite this formalization using DOI
+[10.5281/zenodo.23302358](https://doi.org/10.5281/zenodo.23302358).
 Citation metadata is provided in [CITATION.cff](CITATION.cff).
 
 Licensed under the [Apache License 2.0](LICENSE).

@@ -3,6 +3,7 @@ message: "If you use this formalization, please cite it using this metadata."
 type: software
 title: "Even biunimodular functions at prime 11"
 version: "0.0.1"
+doi: "10.5281/zenodo.23302358"
 repository-code: "https://github.com/brackxm/even-biunimodular-lean"
 authors:
   - family-names: "Brackx"
