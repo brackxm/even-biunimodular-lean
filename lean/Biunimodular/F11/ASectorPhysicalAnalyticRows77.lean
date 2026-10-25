@@ -87,6 +87,7 @@ theorem phaseSolution_in_phaseBox_analytic_row77
       (phaseCirclePairsList77_close_to_box s p.2 hbox)
       (aSectorAnalyticRowBoxes77_index_certificate p hp)
 
+set_option maxRecDepth 2048 in
 /-- Every displayed analytic row is realized by an actual A-sector phase
 solution, with the specified coordinate order. -/
 theorem every_aSector_analytic_row_realized77

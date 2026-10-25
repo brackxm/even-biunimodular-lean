@@ -461,7 +461,9 @@ theorem phaseInvariantU11_phaseCoordsOfEven11
     change (r + r⁻¹) / 2 = (r.re : ℂ)
     rw [← hrconj]
     apply Complex.ext
-    all_goals simp [div_eq_mul_inv] <;> ring
+    · simp [div_eq_mul_inv]
+      ring
+    · simp [div_eq_mul_inv]
   have hu : even11FixedSliceU p = fixedSliceQPair (h 0) w ^ 2 := by
     change even11ProjectiveU p.1 = _
     rw [← hmk, even11ProjectiveU_mk]

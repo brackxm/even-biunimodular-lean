@@ -27,7 +27,7 @@ lake exe cache get
 lake --wfail build
 ```
 
-`lean/lean-toolchain` pins Lean 4.34.1; `lean/lake-manifest.json` pins the dependencies.
+`lean/lean-toolchain` pins Lean 4.35.0; `lean/lake-manifest.json` pins the dependencies.
 [Biunimodular.lean](lean/Biunimodular.lean) is the main entry point. The default
 build also checks the separate [complex scheme](lean/Biunimodular/F11/ComplexSchemeResults.lean),
 [character cutout](lean/Biunimodular/F11/CharacterCutoutResults.lean), and

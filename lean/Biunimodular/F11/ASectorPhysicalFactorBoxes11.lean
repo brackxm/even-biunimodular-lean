@@ -79,6 +79,7 @@ theorem everyAcceptedPhaseBox_realized11
   rw [← hs]
   exact C.acceptedBox_contains s
 
+set_option maxRecDepth 2048 in
 /-- In particular, each of the three A-tagged candidate orbits contains a
 genuine physical solution. -/
 theorem aSectorCandidateRepresentative_realized11

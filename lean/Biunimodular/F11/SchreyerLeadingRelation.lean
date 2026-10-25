@@ -5,7 +5,7 @@ SPDX-License-Identifier: Apache-2.0
 -/
 
 import Mathlib.RingTheory.MvPolynomial.MonomialOrder
-import Mathlib.Data.Prod.Lex
+import Mathlib.Order.Prod.Lex.Basic
 import Mathlib.Data.Finset.Lattice.Fold
 
 set_option autoImplicit false

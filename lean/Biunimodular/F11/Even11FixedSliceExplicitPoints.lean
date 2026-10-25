@@ -71,7 +71,9 @@ theorem even11Fourier_constantVector (s : ℂ) (k : Fin 6) :
   rw [Finset.sum_congr rfl (fun j _ ↦ hterm j), Finset.sum_add_distrib,
     ← Finset.sum_mul, hsum]
   by_cases hk : k = 0
-  all_goals simp [hk] <;> ring
+  · simp [hk]
+    ring
+  · simp [hk]
 
 /-- The quadratic constant branch satisfies all five projective fixed-slice
 equations. -/

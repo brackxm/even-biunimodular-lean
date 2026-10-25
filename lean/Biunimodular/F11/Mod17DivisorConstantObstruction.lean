@@ -49,7 +49,7 @@ theorem mod17_divisor_constant_obstruction
     subst t
     simp [Multiset.prod_cons, Multiset.prod_zero, natDegree_mul,
       h₁.1.ne_zero, h₂.1.ne_zero, h₃.1.ne_zero, h₄.1.ne_zero,
-      d₁, d₂, d₃, d₄, mul_coeff_zero, c₁, c₂, c₃, c₄] at hd h9 <;> norm_num at h9 <;> reduce_mod_char at h9
+      d₁, d₂, d₃, d₄, mul_coeff_zero, c₁, c₂, c₃, c₄] at hd h9
     all_goals first
       | exact (by decide : (2 : ZMod 17) ≠ 9) h9
       | exact (by decide : (15 : ZMod 17) ≠ 9) h9

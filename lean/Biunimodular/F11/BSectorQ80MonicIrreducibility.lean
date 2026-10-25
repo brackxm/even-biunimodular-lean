@@ -75,7 +75,8 @@ theorem bSectorG80Monic_irreducible_Q :
       coordinateMod17Factor2, coordinateMod17Factor2Coeffs,
       coordinateMod17Factor3, coordinateMod17Factor3Coeffs,
       coordinateMod17Factor4, coordinateMod17Factor4Coeffs,
-      integerCoefficientEval] <;> decide
+      integerCoefficientEval]
+  all_goals decide
 
 end
 end Biunimodular.F11

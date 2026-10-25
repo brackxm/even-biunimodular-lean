@@ -21,19 +21,19 @@ theorem irreducible_comp_square_of_norm_not_square (p : ℚ[X])
     (hm : p.Monic) (hi : Irreducible p)
     (hn : ¬ IsSquare ((-1 : ℚ) ^ p.natDegree * p.coeff 0)) :
     Irreducible (p.comp (X ^ 2)) := by
-  apply Polynomial.irreducible_comp hm (monic_X_pow 2) hi
-  intro E _ _ x hx
-  have hxint : IsIntegral ℚ x := minpoly.ne_zero_iff.mp (hx ▸ hm.ne_zero)
-  let pb := adjoin.powerBasis hxint
-  have hnorm : Algebra.norm ℚ (AdjoinSimple.gen ℚ x) =
+  let : Fact (Irreducible p) := ⟨hi⟩
+  apply Polynomial.irreducible_comp hi
+  let pb := AdjoinRoot.powerBasis hm.ne_zero
+  have hnorm : Algebra.norm ℚ (AdjoinRoot.root p) =
       (-1 : ℚ) ^ p.natDegree * p.coeff 0 := by
     have h := Algebra.PowerBasis.norm_gen_eq_coeff_zero_minpoly pb
-    simpa only [pb, adjoin.powerBasis_gen, adjoin.powerBasis_dim, minpoly_gen, hx] using h
+    rw [show minpoly ℚ pb.gen = p from AdjoinRoot.minpoly_powerBasis_gen_of_monic hm] at h
+    simpa only [pb, AdjoinRoot.powerBasis_gen, AdjoinRoot.powerBasis_dim] using h
   apply Polynomial.irreducible_of_degree_le_three_of_not_isRoot
   · simp
   · intro t ht
-    have hs : t ^ 2 = AdjoinSimple.gen ℚ x := by
-      simpa using (sub_eq_zero.mp (show t ^ 2 - AdjoinSimple.gen ℚ x = 0 by
+    have hs : t ^ 2 = AdjoinRoot.root p := by
+      simpa using (sub_eq_zero.mp (show t ^ 2 - AdjoinRoot.root p = 0 by
         simpa only [Polynomial.map_pow, Polynomial.map_X, Polynomial.IsRoot,
           Polynomial.eval_sub, Polynomial.eval_pow, Polynomial.eval_X,
           Polynomial.eval_C] using ht))
