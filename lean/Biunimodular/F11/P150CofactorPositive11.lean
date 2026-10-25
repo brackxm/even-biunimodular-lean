@@ -7,10 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 module
 
 public import Mathlib.RingTheory.Polynomial.Bernstein
+public import Mathlib.Algebra.Polynomial.CoeffList
 public import Biunimodular.F11.P150PolynomialData11
 public import Mathlib.Basic.Real.Basic
 public import Mathlib.Algebra.Algebra.Rat
 public meta import Mathlib.RingTheory.Polynomial.Bernstein
+public meta import Mathlib.Algebra.Polynomial.CoeffList
 public meta import Biunimodular.F11.P150PolynomialData11
 public meta import Mathlib.Basic.Real.Basic
 public meta import Mathlib.Algebra.Algebra.Rat
@@ -190,6 +192,30 @@ def coefficientBernsteinCombinationQ11 (n i : ℕ) : List ℚ → List ℚ
 def polynomialOfCoefficientsQ11 (cs : List ℚ) : ℚ[X] :=
   cs.foldr (fun c p => C c + X * p) 0
 
+/-- Reuse Mathlib's polynomial API while keeping the executable coefficient
+operations and their existing Horner representation. -/
+theorem polynomialOfCoefficientsQ11_eq_ofCoeffList (cs : List ℚ) :
+    polynomialOfCoefficientsQ11 cs = ofCoeffList cs := by
+  induction cs with
+  | nil => simp [polynomialOfCoefficientsQ11]
+  | cons c cs ih =>
+    rw [ofCoeffList_cons]
+    change C c + X * polynomialOfCoefficientsQ11 cs = _
+    rw [ih]
+
+theorem polynomialOfCoefficientsZ_eq_ofCoeffList (cs : List ℤ) :
+    polynomialOfCoefficientsZ cs = ofCoeffList cs := by
+  induction cs with
+  | nil => simp [polynomialOfCoefficientsZ]
+  | cons c cs ih =>
+    rw [ofCoeffList_cons]
+    change C c + X * polynomialOfCoefficientsZ cs = _
+    rw [ih]
+
+@[simp] theorem polynomialOfCoefficientsQ11_coeff (cs : List ℚ) (i : ℕ) :
+    (polynomialOfCoefficientsQ11 cs).coeff i = cs.getD i 0 := by
+  rw [polynomialOfCoefficientsQ11_eq_ofCoeffList, coeff_ofCoeffList]
+
 /-- The corresponding Bernstein combination, kept recursive so positivity
 proofs need no large normalization. -/
 def bernsteinCombinationQ11 (n i : ℕ) : List ℚ → ℚ[X]
@@ -218,14 +244,8 @@ theorem polynomialOfCoefficientsQ11_add (xs ys : List ℚ) :
 theorem polynomialOfCoefficientsQ11_scale (c : ℚ) (xs : List ℚ) :
     polynomialOfCoefficientsQ11 (coefficientScaleQ11 c xs) =
       C c * polynomialOfCoefficientsQ11 xs := by
-  induction xs with
-  | nil => simp [coefficientScaleQ11]
-  | cons x xs ih =>
-    change C (c * x) + X *
-        polynomialOfCoefficientsQ11 (coefficientScaleQ11 c xs) = _
-    rw [ih]
-    simp
-    ring
+  simpa only [polynomialOfCoefficientsQ11_eq_ofCoeffList, coefficientScaleQ11]
+    using ofCoeffList_map_mul c xs
 
 theorem polynomialOfCoefficientsQ11_mul (xs ys : List ℚ) :
     polynomialOfCoefficientsQ11 (coefficientMulQ11 xs ys) =
@@ -346,15 +366,9 @@ the same as mapping the list first. -/
 theorem polynomialOfCoefficientsZ_map_Q11 (cs : List ℤ) :
     (polynomialOfCoefficientsZ cs).map (Int.castRingHom ℚ) =
       polynomialOfCoefficientsQ11 (cs.map (fun c => (c : ℚ))) := by
-  induction cs with
-  | nil => simp [polynomialOfCoefficientsZ, polynomialOfCoefficientsQ11]
-  | cons c cs ih =>
-    change (C c + X * polynomialOfCoefficientsZ cs).map _ =
-      C (c : ℚ) + X *
-        polynomialOfCoefficientsQ11 (cs.map fun c => (c : ℚ))
-    rw [Polynomial.map_add, Polynomial.map_C, Polynomial.map_mul,
-      Polynomial.map_X, ih]
-    simp
+  simpa [polynomialOfCoefficientsZ_eq_ofCoeffList,
+    polynomialOfCoefficientsQ11_eq_ofCoeffList, List.map_eq_flatMap] using
+      map_ofCoeffList (Int.castRingHom ℚ) cs
 
 /-- The rational polynomial port agrees with the integral coefficient data. -/
 theorem r102SquaredYQ11_eq_map_integer :

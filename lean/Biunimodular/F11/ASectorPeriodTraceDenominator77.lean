@@ -5,40 +5,38 @@ SPDX-License-Identifier: Apache-2.0
 -/
 
 import Biunimodular.F11.ASectorPeriodOrderCoordinates77
-import Mathlib.LinearAlgebra.Matrix.Adjugate
 
 set_option autoImplicit false
 namespace Biunimodular.F11
 noncomputable section
 
-/-- The trace pairing bounds every algebraic integer's basis denominator by
-the computed order discriminant. No maximality assumption is used. -/
-theorem periodBasis_integral_denominator77 {x : conductor77PeriodField}
+/-- The certified scaled inverse bounds every algebraic integer's basis
+coordinates by 77, without computing an adjugate or assuming maximality. -/
+theorem periodBasis_integral_denominator_bound77 {x : conductor77PeriodField}
     (hx : IsIntegral ℤ x) (i : Fin 6) :
-    ∃ z : ℤ, (z : ℚ) = (7^5 * 11^3 : ℚ) * conductor77PeriodBasis.repr x i := by
+    ∃ z : ℤ, (z : ℚ) = 77 * conductor77PeriodBasis.repr x i := by
   classical
   let G : Matrix (Fin 6) (Fin 6) ℚ :=
     periodOrderTraceGramData77.map (Int.castRingHom ℚ)
+  let H : Matrix (Fin 6) (Fin 6) ℚ :=
+    periodOrderTraceDualData77.map (Int.castRingHom ℚ)
   let c : Fin 6 → ℚ := fun j => conductor77PeriodBasis.repr x j
   let t : Fin 6 → ℚ := fun j =>
     Algebra.trace ℚ conductor77PeriodField (x * conductor77PeriodBasis j)
   have ht : Matrix.vecMul c G = t := by
     funext j
     exact (periodBasis_trace_coordinates77 x j).symm
-  have hdet : G.det = (7^5 * 11^3 : ℚ) := by
-    have h := (Int.castRingHom ℚ).map_det periodOrderTraceGramData77
-    rw [periodOrderTraceGramData77_det] at h
-    convert h.symm using 1 <;> norm_num [G, Int.castRingHom]
-  have hadj : G.adjugate =
-      periodOrderTraceGramData77.adjugate.map (Int.castRingHom ℚ) := by
-    exact ((Int.castRingHom ℚ).map_adjugate periodOrderTraceGramData77).symm
-  have he : Matrix.vecMul t G.adjugate = (7^5 * 11^3 : ℚ) • c := by
-    rw [← ht, Matrix.vecMul_vecMul, Matrix.mul_adjugate, hdet,
-      Matrix.vecMul_smul, Matrix.vecMul_one]
-  have hsum : IsIntegral ℤ (Matrix.vecMul t G.adjugate i) := by
-    rw [hadj]
+  have hGH : G * H = (77 : ℚ) • 1 := by
+    have h := congrArg (Int.castRingHom ℚ).mapMatrix
+      periodOrderTraceGramData77_mul_dual
+    rw [map_mul, map_ofNat] at h
+    simpa only [G, H, RingHom.mapMatrix_apply, Matrix.smul_one_eq_diagonal,
+      Matrix.diagonal_ofNat] using h
+  have he : Matrix.vecMul t H = (77 : ℚ) • c := by
+    rw [← ht, Matrix.vecMul_vecMul, hGH, Matrix.vecMul_smul, Matrix.vecMul_one]
+  have hsum : IsIntegral ℤ (Matrix.vecMul t H i) := by
     change IsIntegral ℤ (∑ j : Fin 6,
-      t j * (periodOrderTraceGramData77.adjugate j i : ℚ))
+      t j * (periodOrderTraceDualData77 j i : ℚ))
     apply IsIntegral.sum
     intro j _
     obtain ⟨z, hz⟩ := periodBasis_trace_integral77 hx j
@@ -48,6 +46,17 @@ theorem periodBasis_integral_denominator77 {x : conductor77PeriodField}
     exact htj.mul isIntegral_algebraMap
   rw [he] at hsum
   exact IsIntegrallyClosed.isIntegral_iff.mp hsum
+
+/-- The original discriminant bound follows from the stronger denominator-77
+bound, retaining the existing interface for the integer-order proofs. -/
+theorem periodBasis_integral_denominator77 {x : conductor77PeriodField}
+    (hx : IsIntegral ℤ x) (i : Fin 6) :
+    ∃ z : ℤ, (z : ℚ) = (7^5 * 11^3 : ℚ) * conductor77PeriodBasis.repr x i := by
+  obtain ⟨z, hz⟩ := periodBasis_integral_denominator_bound77 hx i
+  refine ⟨(7^4 * 11^2 : ℤ) * z, ?_⟩
+  push_cast
+  rw [hz]
+  ring
 
 /-- Multiplying any algebraic integer by the order discriminant places it
 in the actual integer period order. -/

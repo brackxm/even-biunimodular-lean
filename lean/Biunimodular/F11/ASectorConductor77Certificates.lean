@@ -173,18 +173,18 @@ def conductor77H0 : Finset (ZMod 77) :=
 
 /-- `6^5 = -1 (mod 77)`. -/
 theorem six_pow_five_mod77 : (6 : ZMod 77)^5 = -1 := by
-  native_decide
+  decide
 
 /-- `6` has order ten modulo 77, witnessed by its ten distinct powers. -/
 def conductor77Powers6 : List (ZMod 77) :=
   (List.range 10).map (fun n => (6 : ZMod 77)^n)
 
 theorem conductor77Powers6_nodup : conductor77Powers6.Nodup := by
-  native_decide
+  decide
 
 theorem conductor77Powers6_eq_H0 :
     conductor77Powers6.toFinset = conductor77H0 := by
-  native_decide
+  decide
 
 /-- Polynomial discriminant of `C`; its square-free field-discriminant part
 is `7^5 * 11^3`, with index factor `13^4`. -/
@@ -235,7 +235,7 @@ theorem periodC77_discriminant_value :
 
 theorem periodC77_discriminant_decomposition :
     periodC77Discriminant = 13^4 * 7^5 * 11^3 := by
-  native_decide
+  decide
 
 /-- The field-discriminant value asserted for the cyclic sextic period field. -/
 def conductor77SexticFieldDisc : ℤ := 7^5 * 11^3
@@ -247,7 +247,7 @@ def conductor77NontrivialCharacterConductors : List ℕ := [77, 7, 77, 7, 77]
 theorem conductor77_conductor_discriminant_product :
     (conductor77NontrivialCharacterConductors.foldl (· * ·) 1 : ℕ) =
       7^5 * 11^3 := by
-  native_decide
+  decide
 
 end
 

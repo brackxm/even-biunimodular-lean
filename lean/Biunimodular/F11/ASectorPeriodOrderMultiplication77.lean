@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 import Biunimodular.F11.ASectorPeriodOrderData77
 import Biunimodular.F11.ASectorPeriodSubfieldValues77
-import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+import Biunimodular.F11.ASectorPeriodTraceData77
 
 set_option autoImplicit false
 set_option maxRecDepth 200000
@@ -47,12 +47,6 @@ theorem periodOrbit77_mul (i j : Fin 6) :
     List.map_ofFn, Function.comp_apply, integerCoefficientEval_scale,
     periodOrderOrbit_eval77, List.sum_ofFn]
 
-def periodOrderTraceGramData77 : Matrix (Fin 6) (Fin 6) ℤ :=
-  ![![41, -1, -1, -36, -1, -1], ![-1, 41, -1, -1, -36, -1], ![-1, -1, 41, -1, -1, -36], ![-36, -1, -1, 41, -1, -1], ![-1, -36, -1, -1, 41, -1], ![-1, -1, -36, -1, -1, 41]]
-
-theorem periodOrderTraceGramData77_det :
-    Matrix.det periodOrderTraceGramData77 = 7^5 * 11^3 := by
-  native_decide
 
 end
 end Biunimodular.F11
